@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>每日简报 · 2026-11-14</title>
+<title>每日简报 · 2026-11-15</title>
 <style>
   :root {
     --bg: #fafaf9;
@@ -639,12 +639,12 @@
 <main>
   <header class="report-header">
     <span class="eyebrow">每日简报</span>
-    <h1 class="report-title">2026-11-14</h1>
+    <h1 class="report-title">2026-11-15</h1>
     <a class="archive-link" href="./archive.html">← 历史归档</a>
   </header>
 
   <nav class="tabs" role="tablist">
-    <button class="tab active" data-tab="tech">技术动态<span class="count">54</span></button>
+    <button class="tab active" data-tab="tech">技术动态<span class="count">56</span></button>
     <button class="tab" data-tab="trading">市场行情<span class="count">21</span></button>
     <button class="tab" data-tab="politics">时政观察<span class="count">15</span></button>
     <button class="tab" data-tab="finance">财经要点<span class="count">12</span></button>
@@ -652,94 +652,115 @@
   </nav>
 
   <section class="panel active" data-panel="tech">
-    <nav class="sub-tabs"><button class="sub-tab active" data-sub="github-trending" data-cat="tech">GitHub Trending<span class="count">12</span></button><button class="sub-tab" data-sub="trending-papers" data-cat="tech">热门论文<span class="count">20</span></button><button class="sub-tab" data-sub="x-viral" data-cat="tech">X 推文<span class="count">7</span></button><button class="sub-tab" data-sub="ai-news" data-cat="tech">AI 媒体<span class="count">15</span></button></nav>
+    <nav class="sub-tabs"><button class="sub-tab active" data-sub="github-trending" data-cat="tech">GitHub Trending<span class="count">15</span></button><button class="sub-tab" data-sub="trending-papers" data-cat="tech">热门论文<span class="count">20</span></button><button class="sub-tab" data-sub="x-viral" data-cat="tech">X 推文<span class="count">6</span></button><button class="sub-tab" data-sub="ai-news" data-cat="tech">AI 媒体<span class="count">15</span></button></nav>
 <div class="sub-contents"><div class="sub-content active" data-sub-content="github-trending" data-cat="tech">
     
     <div class="source-contents">
       <div class="source-content active" data-source-content="github-trending" data-sub="github-trending" data-cat="tech">
     <article class="article">
-  <h3 class="article-title"><a href="https://github.com/alibaba/open-code-review" target="_blank" rel="noopener noreferrer">alibaba/open-code-review</a></h3>
-  <p class="article-stats">Go · ★ 50,880 · 🍴 3,791 · 📈 215 stars today</p>
+  <h3 class="article-title"><a href="https://github.com/backnotprop/plannotator" target="_blank" rel="noopener noreferrer">backnotprop/plannotator</a></h3>
+  <p class="article-stats">TypeScript · ★ 11,363 · 🍴 973 · 📈 408 stars today</p>
   
-  <p class="article-excerpt">Secure, fast, efficient, battle-tested at Alibaba&#39;s scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 阿里内部大规模验证过的代码审查工具，采用确定性流水线加 LLM Agent 的混合架构：规则引擎负责稳定可复现的检查，Agent 负责语义级判断，能给出精确到行的评论，并内置 NPE 等多语言规则集，适合团队接入 CI 做自动化代码评审。</p>
+  <p class="article-excerpt">The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 面向 AI 编码代理的协作工作台，把规划、决策、代码标注与评审集中在一处，标注结果和反馈可一键回传给代理。适合需要与 Claude Code 等代理反复迭代的开发者与团队，减少在多工具间切换、把意图讲清楚的成本。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://github.com/GoogleChrome/modern-web-guidance-src" target="_blank" rel="noopener noreferrer">GoogleChrome/modern-web-guidance-src</a></h3>
-  <p class="article-stats">TypeScript · ★ 5,127 · 🍴 282 · 📈 1,925 stars today</p>
+  <p class="article-stats">TypeScript · ★ 6,304 · 🍴 472 · 📈 1,231 stars today</p>
   
   <p class="article-excerpt">Keep your coding agent up to date with the latest web best practices</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 为编码 Agent 提供现代 Web 最佳实践的知识源，让 AI 编程助手在生成前端代码时跟得上最新的规范与推荐做法。适合维护 AI 编码规则、提示词或文档库的团队使用，用来减少模型输出的过时写法。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://github.com/openai/codex-security" target="_blank" rel="noopener noreferrer">openai/codex-security</a></h3>
-  <p class="article-stats">TypeScript · ★ 13,298 · 🍴 1,031 · 📈 751 stars today</p>
-  
-  <p class="article-excerpt">OpenAI&#39;s Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> OpenAI 推出的安全漏洞检测工具，包含命令行工具和 TypeScript SDK，覆盖漏洞发现、验证与修复三个环节。开发者可在本地或 CI 流程中以 npm 包 @openai/codex-security 集成，对代码库做自动化安全扫描。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://github.com/ZhuLinsen/daily_stock_analysis" target="_blank" rel="noopener noreferrer">ZhuLinsen/daily_stock_analysis</a></h3>
-  <p class="article-stats">Python · ★ 71,910 · 🍴 57,373 · 📈 256 stars today</p>
-  
-  <p class="article-excerpt">LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 由 LLM 驱动的多市场股票分析系统，聚合多源行情与实时新闻，生成决策看板并自动推送通知，支持零成本定时运行。适合个人投资者每日复盘和跟踪标的，省去手动收集数据与撰写分析的时间。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://github.com/we-promise/sure" target="_blank" rel="noopener noreferrer">we-promise/sure</a></h3>
-  <p class="article-stats">Ruby · ★ 14,912 · 🍴 1,135 · 📈 925 stars today</p>
-  
-  <p class="article-excerpt">The personal finance app for everyone (by everyone)</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 面向所有人的个人理财应用，主打社区共建。用于记录账户、收支与资产状况，帮助用户看清自己的财务全貌。适合希望自行掌控数据、不想依赖商业理财服务的个人或家庭用户。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://github.com/backnotprop/plannotator" target="_blank" rel="noopener noreferrer">backnotprop/plannotator</a></h3>
-  <p class="article-stats">TypeScript · ★ 10,584 · 🍴 791 · 📈 108 stars today</p>
-  
-  <p class="article-excerpt">The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 围绕 AI Agent 协作的工作区，支持规划、决策、标注与代码审查，并可把意见一键回传给 Agent。解决多 Agent 并行时人类难以跟进的问题，适合需要持续介入和审核 AI 产出的开发团队。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://github.com/louislam/uptime-kuma" target="_blank" rel="noopener noreferrer">louislam/uptime-kuma</a></h3>
-  <p class="article-stats">JavaScript · ★ 93,976 · 🍴 8,729 · 📈 71 stars today</p>
-  
-  <p class="article-excerpt">A fancy self-hosted monitoring tool</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 自托管的监控告警工具，界面美观、部署简单，可监控 HTTP、TCP、Ping、DNS 等各类端点，状态异常时通过多种渠道通知。适合个人站长和中小团队替代商业监控服务，自行掌握可用性数据。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://github.com/block/buzz" target="_blank" rel="noopener noreferrer">block/buzz</a></h3>
-  <p class="article-stats">Rust · ★ 37,371 · 🍴 4,944 · 📈 97 stars today</p>
-  
-  <p class="article-excerpt">A hive mind communication platform</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Block 开源的群体协作通信平台，定位为“蜂群思维”式的沟通工具，让多人信息与判断汇聚成集体结论。适合需要高频讨论与共识决策的团队，具体形态以仓库文档为准。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Google Chrome 团队维护的现代 Web 最佳实践资料源，用于给编码代理补充最新的浏览器 API 与规范知识，避免其凭过时训练数据写出旧写法。适合为 AI 代理配置规则与知识库的前端团队，作为提示与规则文件的上游来源。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://github.com/tradermonty/claude-trading-skills" target="_blank" rel="noopener noreferrer">tradermonty/claude-trading-skills</a></h3>
-  <p class="article-stats">Python · ★ 4,326 · 🍴 882 · 📈 69 stars today</p>
+  <p class="article-stats">Python · ★ 4,997 · 🍴 1,047 · 📈 553 stars today</p>
   
   <p class="article-excerpt">Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 面向股票投资者与交易员的 Claude Code 技能集合，涵盖市场分析、技术图表绘制、经济日历、选股筛选器和交易策略开发。把这些技能挂到 Claude Code 上，即可用自然语言驱动日常投研流程。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://github.com/tailscale/tailcat" target="_blank" rel="noopener noreferrer">tailscale/tailcat</a></h3>
-  <p class="article-stats">Go · ★ 9,593 · 🍴 437 · 📈 256 stars today</p>
-  
-  <p class="article-excerpt">like netcat, but over Tailscale&#39;s data plane, without Tailscale&#39;s control plane</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 类似 netcat 的网络工具，但走 Tailscale 数据面而非控制面，可直接在 tailnet 内做端口连通性测试与数据传输。适合排查 Tailscale 组网问题的运维和开发者，在不依赖协调服务器的前提下验证链路。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://github.com/Likely7/Veyra-NRVideo" target="_blank" rel="noopener noreferrer">Likely7/Veyra-NRVideo</a></h3>
-  <p class="article-stats">C++ · ★ 1,737 · 🍴 77 · 📈 256 stars today</p>
-  
-  <p class="article-excerpt">Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experie</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Windows 平台的视频播放与采集增强工具，支持视频、图像和采集卡信号的实时预览，并结合 AI 超分辨率提升画质。适合需要低延迟监看采集画面、追求画质增强的直播与视频制作场景。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 给 Claude Code 用的股票投资与交易技能集，覆盖行情分析、技术图表、经济日历、选股筛选器和交易策略开发。适合个人投资者和量化爱好者，把重复的研究与复盘流程交给代理执行，快速生成分析结论与策略草稿。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" target="_blank" rel="noopener noreferrer">ChromeDevTools/chrome-devtools-mcp</a></h3>
-  <p class="article-stats">TypeScript · ★ 55,721 · 🍴 4,616 · 📈 67 stars today</p>
+  <p class="article-stats">TypeScript · ★ 56,464 · 🍴 4,782 · 📈 664 stars today</p>
   
   <p class="article-excerpt">Chrome DevTools for coding agents</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 把 Chrome DevTools 能力封装成 MCP 服务，供编码 Agent 调用，使其能检查页面、读取控制台与网络请求、调试运行时问题。适合用 AI 助手做前端开发与自动化排错的场景。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 把 Chrome DevTools 通过 MCP 协议暴露给编码代理，让 AI 能直接读取页面、检查 DOM、抓取控制台与网络请求、执行性能分析。适合前端开发与调试场景，代理可自行复现问题并定位原因，而非靠开发者手工截图转述。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://github.com/alibaba/open-code-review" target="_blank" rel="noopener noreferrer">alibaba/open-code-review</a></h3>
+  <p class="article-stats">Go · ★ 51,574 · 🍴 3,980 · 📈 893 stars today</p>
+  
+  <p class="article-excerpt">Secure, fast, efficient, battle-tested at Alibaba&#39;s scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 阿里巴巴开源的大规模代码评审工具，采用确定性流水线加 LLM Agent 的混合架构，支持精确到行的评论，并内置多语言规则集（如 NPE 检测等）。适合有大量代码库与严格要求的企业团队，在合并前自动完成可复现、低幻觉的审查。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://github.com/QwenLM/qwen-code" target="_blank" rel="noopener noreferrer">QwenLM/qwen-code</a></h3>
+  <p class="article-stats">TypeScript · ★ 30,421 · 🍴 3,523 · 📈 64 stars today</p>
+  
+  <p class="article-excerpt">An open-source AI coding agent that lives in your terminal.</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 通义千问团队开源的终端 AI 编码代理，直接在命令行中读写代码、执行命令并完成多步开发任务。适合习惯终端工作流的开发者，用于代码理解、重构、修 bug 与自动化脚本编写，可接入不同的 Qwen 模型。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://github.com/dream-num/univer" target="_blank" rel="noopener noreferrer">dream-num/univer</a></h3>
+  <p class="article-stats">TypeScript · ★ 25,093 · 🍴 2,296 · 📈 495 stars today</p>
+  
+  <p class="article-excerpt">Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 开源办公文档 SDK，把表格的编辑、公式计算、多人协作与文件解析能力嵌入自有产品，同时服务人类用户和 AI 代理。适合需要在 SaaS 或内部系统中自建在线表格、报表与 AI 办公功能的技术团队。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://github.com/ag-ui-protocol/ag-ui" target="_blank" rel="noopener noreferrer">ag-ui-protocol/ag-ui</a></h3>
+  <p class="article-stats">TypeScript · ★ 17,460 · 🍴 1,717 · 📈 9 stars today</p>
+  
+  <p class="article-excerpt">AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 面向 Agent 与前端交互的开放协议，定义代理运行时与前端应用之间的事件与状态同步方式，让流式输出、工具调用和人工干预能统一接入界面。适合正在把 AI 代理集成进 Web 或客户端产品的开发者。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://github.com/ashhart/TensorFold" target="_blank" rel="noopener noreferrer">ashhart/TensorFold</a></h3>
+  <p class="article-stats">Zig · ★ 2,203 · 🍴 517 · 📈 37 stars today</p>
+  
+  <p class="article-excerpt">LLM Inference Engine for Metal, CUDA and Vulkan.</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 跨后端的 LLM 推理引擎，同时支持 Metal、CUDA 与 Vulkan，使同一套推理代码可在苹果芯片、NVIDIA 显卡和其他 GPU 上运行。适合需要在本地或多硬件环境部署模型的开发者，用于降低不同图形后端的适配成本。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noopener noreferrer">JuliusBrussee/caveman</a></h3>
+  <p class="article-stats">Go · ★ 120,185 · 🍴 7,006 · 📈 227 stars today</p>
+  
+  <p class="article-excerpt">🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 针对编码代理的提示技巧与代理服务，通过让模型用极简的“穴居人”式表达来压缩输出 token，号称可节省约 65% 的用量。适合关注 API 成本与上下文占用的开发者，在长会话和批量任务中降低开销。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://github.com/louislam/uptime-kuma" target="_blank" rel="noopener noreferrer">louislam/uptime-kuma</a></h3>
+  <p class="article-stats">JavaScript · ★ 94,323 · 🍴 8,836 · 📈 430 stars today</p>
+  
+  <p class="article-excerpt">A fancy self-hosted monitoring tool</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 自托管的站点与服务器监控工具，提供 HTTP、TCP、Ping、DNS 等多种探测方式、状态页、多渠道告警通知和可视化仪表盘。适合个人开发者与中小团队替代付费监控服务，快速搭建属于自己的可用性监测。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://github.com/we-promise/sure" target="_blank" rel="noopener noreferrer">we-promise/sure</a></h3>
+  <p class="article-stats">Ruby · ★ 15,432 · 🍴 1,316 · 📈 659 stars today</p>
+  
+  <p class="article-excerpt">The personal finance app for everyone (by everyone)</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 开源个人财务管理应用，用于记录账户、交易与预算，集中查看资产和支出情况，支持自行部署以掌握数据。适合希望替代闭源记账软件、注重隐私的个人或家庭用户日常记账与财务规划。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://github.com/Tencent/LoopForge" target="_blank" rel="noopener noreferrer">Tencent/LoopForge</a></h3>
+  <p class="article-stats">Go · ★ 1,016 · 🍴 232 · 📈 33 stars today</p>
+  
+  <p class="article-excerpt">Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 腾讯开源的自托管工作流引擎，用于编排编码代理的交付流程，可调度 CodeBuddy、Codex 与 Claude Code，并结合脚本与人工审批关卡。适合团队把 AI 生成的代码纳入可控的流水线，兼顾自动化与审核合规。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://github.com/Likely7/Veyra-NRVideo" target="_blank" rel="noopener noreferrer">Likely7/Veyra-NRVideo</a></h3>
+  <p class="article-stats">C++ · ★ 2,418 · 🍴 204 · 📈 420 stars today</p>
+  
+  <p class="article-excerpt">Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experie</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Windows 视频播放与采集增强工具，支持视频、图片和采集卡源的实时预览，并集成 AI 超分辨率等画质增强能力。适合需要处理采集画面或本地视频播放的用户，例如直播、录制与高帧率播放场景。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://github.com/martin-olivier/airgorah" target="_blank" rel="noopener noreferrer">martin-olivier/airgorah</a></h3>
+  <p class="article-stats">Rust · ★ 6,029 · 🍴 1,043 · 📈 270 stars today</p>
+  
+  <p class="article-excerpt">A WiFi security auditing software</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 基于 Rust 的 WiFi 安全审计工具，提供图形界面进行周边网络扫描、握手包捕获与安全测试，用于评估无线网络配置的健壮性。适合安全研究人员和渗透测试人员在授权范围内做无线环境自查。</p>
 </article>
   </div>
     </div>
@@ -750,143 +771,143 @@
       <div class="source-content active" data-source-content="huggingface-papers" data-sub="trending-papers" data-cat="tech">
     <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.15777" target="_blank" rel="noopener noreferrer">SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models</a></h3>
-  <p class="article-stats">👍 83</p>
+  <p class="article-stats">👍 136</p>
   <p class="article-meta">11/11 00:00</p>
   <p class="article-excerpt">System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the brea</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 针对 System One 类模型（不经长链 token 生成即快速决策）缺乏细粒度评测的问题，提出 SO-Arena 基准，从能力谱系与决策可靠性两个维度拆解现有 benchmark 的聚合分数盲区，揭示模型在不同任务环节上的能力断层与判断稳定性差异。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 针对System One模型（无需长链token生成的快速决策模型），提出SO-Arena基准，突破仅看聚合性能的评估方式，细粒度刻画其能力谱系与决策可靠性，揭示具体失效模式。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2610.40394" target="_blank" rel="noopener noreferrer">Scaling Mathematical Proof Supervision from Structured Textbooks</a></h3>
-  <p class="article-stats">👍 45</p>
+  <p class="article-stats">👍 47</p>
   <p class="article-meta">10/29 00:00</p>
   <p class="article-excerpt">Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,11</p>
-  
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 构建TOME-Math大规模语料，把教材中的数学监督从孤立题解对还原为保留课程组织与证据结构的形态，为语言模型提供结构化的数学证明监督信号。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.16748" target="_blank" rel="noopener noreferrer">PhysLoop: Harnessing LLMs&#39; Physics Awareness for Self-Improving Video Generation Models</a></h3>
-  <p class="article-stats">👍 44</p>
+  <p class="article-stats">👍 46</p>
   <p class="article-meta">11/12 00:00</p>
   <p class="article-excerpt">Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. </p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 提出 PhysLoop，利用 LLM 的物理常识为视频生成模型提供自监督式改进信号：自动判定生成视频的物理合理性、构造纠正对与受控变化样本，让模型从自身生成结果中学习物理动态与因果一致性，缓解视觉逼真但物理失真问题。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 视频生成模型在物理动态与因果一致性上仍不足，且难以获得细粒度物理监督。PhysLoop利用LLM的物理感知自动生成质量判断与校正对，使视频生成模型自我改进。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.15131" target="_blank" rel="noopener noreferrer">Duo: A Reciprocal World Model for Full-Duplex Interaction</a></h3>
-  <p class="article-stats">👍 38</p>
+  <p class="article-stats">👍 40</p>
   <p class="article-meta">11/11 00:00</p>
   <p class="article-excerpt">In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Exis</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 提出 Reciprocal World Model（RWM）与全双工世界模型 Duo v1，可同时持续感知音视频输入并实时回应用户，将智能与物理现实并列为世界建模的基本要素，面向实时双向交互而非轮次式生成。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 提出Reciprocal World Model（RWM）与Duo v1全双工世界模型，可边持续感知视听输入边实时回应用户，将智能与物理现实并列为世界的基本构成。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.13410" target="_blank" rel="noopener noreferrer">SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering</a></h3>
-  <p class="article-stats">👍 35</p>
+  <p class="article-stats">👍 37</p>
   <p class="article-meta">11/10 00:00</p>
   <p class="article-excerpt">Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Co</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 针对低比特量化导致 LLM Agent 任务成功率下降的问题，分析失败轨迹后发现量化模型会忽略任务要求与环境状态，提出 SteerDistill：用全精度教师的闭环引导蒸馏量化 Agent，对齐环境状态转移，在降低推理成本的同时保留任务成功率。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 低比特量化能降低LLM agent推理成本，却损害任务成功率。分析失败轨迹发现量化agent会忽略任务要求与环境条件，SteerDistill用闭环教师引导蒸馏纠正其状态转移偏差。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.15844" target="_blank" rel="noopener noreferrer">Open Vision Banana: A Fully Open Recipe for Generative Visual Perception</a></h3>
-  <p class="article-stats">👍 32</p>
+  <p class="article-stats">👍 35</p>
   <p class="article-meta">11/11 00:00</p>
   <p class="article-excerpt">Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Vision Banana 将视觉任务重构为条件图像编辑，但数据、权重与代码均未公开。本文给出 Open Vision Banana，一套完全开放的生成本征视觉感知方案，公开数据、模型与实现细节，复现并开放这一「生成式视觉理解」范式。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Vision Banana将视觉任务视为条件图像编辑，但数据与代码未公开。Open Vision Banana给出完全开放的复现方案，含数据、权重与实现细节，推动生成式视觉感知研究。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.17167" target="_blank" rel="noopener noreferrer">Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents</a></h3>
-  <p class="article-stats">👍 30</p>
+  <p class="article-stats">👍 34</p>
   <p class="article-meta">11/12 00:00</p>
   <p class="article-excerpt">Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent&#39;s actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as ac</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 系统研究长程 Agent 中的决策模型（以带概率的类型化输出作答）：同一模型可作 Actor 选动作、作 Judge 评估已执行动作、作 Teacher 为策略打分为 RL 提供信号，比较三种角色下的表现差异，厘清各自适用条件。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 决策模型可输出带概率的选项，从而充当agent的动作选择者、评估者或RL教学信号。本文在长时程agent中系统比较Actor、Judge、Teacher三种角色的差异与适用边界。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.05984" target="_blank" rel="noopener noreferrer">On the Design of Hyper-Connections: Simplification, Stability, and Scalability</a></h3>
-  <p class="article-stats">👍 26</p>
+  <p class="article-stats">👍 29</p>
   <p class="article-meta">11/04 00:00</p>
   <p class="article-excerpt">Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 系统拆解前沿语言模型采用的 Hyper-Connections（HC）架构，分析各组件的实际作用与训练开销来源，给出更简化的设计并改善其稳定性与可扩展性，在保持性能的同时降低额外训练成本。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Hyper-Connections已被前沿语言模型采用，但组件作用不清且训练开销明显。本文系统拆解HC架构，识别可简化的设计，给出更稳定、更可扩展的变体。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.17331" target="_blank" rel="noopener noreferrer">TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models</a></h3>
-  <p class="article-stats">👍 21</p>
+  <p class="article-stats">👍 23</p>
   <p class="article-meta">11/12 00:00</p>
   <p class="article-excerpt">Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking </p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 面向带 KV-cache 的 decoder-only 大视角合成模型（LVSM），提出 Test-Time Baking（TTB）：在测试时把渲染知识「烘焙」进模型，兼顾 Test-Time Training 的计算节省与重建式方法的画质，实现高效新视角渲染。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> decoder-only大视图合成模型（LVSM）配合KV-cache达到SOTA，但测试时渲染开销大。提出Test-Time Baking（TTB），在测试时把计算烘焙进模型表示，兼顾渲染效率与画质。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2608.22237" target="_blank" rel="noopener noreferrer">Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents</a></h3>
-  <p class="article-stats">👍 21</p>
+  <p class="article-stats">👍 22</p>
   <p class="article-meta">11/07 00:00</p>
   <p class="article-excerpt">Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed. This over-reading increases token and latency costs and can dilute relevant evidence. We present SparseRead, a reusabl</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 针对 Web Agent 反复整页读取导致的 token 与延迟浪费，提出 SparseRead：一种可复用的稀疏阅读接口，只暴露完成任务所需的稀疏证据而非整个文档、网页或工具返回，在降低 token 开销与延迟的同时减少无关信息干扰。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 面向Web的AI agent常整篇读取网页与工具返回，token与时延开销大且稀释关键证据。SparseRead提供可复用的稀疏阅读接口，只暴露所需证据片段，实现token高效的信息获取。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.08318" target="_blank" rel="noopener noreferrer">Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement</a></h3>
-  <p class="article-stats">👍 15</p>
+  <p class="article-stats">👍 20</p>
   <p class="article-meta">11/05 00:00</p>
   <p class="article-excerpt">Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark&#39;s success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 指出具身自改进研究中普遍存在的「评判标准暴露」（Criteria Exposure）问题：把 benchmark 成功判据直接交给学习中的 Agent，可能使其学到校验器而非任务本身。作者系统分析该做法对评估结论的影响，并给出更严谨的对比设置建议。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 自改进具身agent研究中，部分工作把benchmark的成功标准直接暴露给学习agent（Criteria Exposure）。本文重新审视该做法，指出其可能让agent学到验证器而非任务本身。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.16217" target="_blank" rel="noopener noreferrer">WorldDraft: If Code Builds the World, Can Video Models Just Render It?</a></h3>
-  <p class="article-stats">👍 15</p>
+  <p class="article-stats">👍 16</p>
   <p class="article-meta">11/12 00:00</p>
   <p class="article-excerpt">Multimodal coding agents decouple 4D world construction from visual generation, repurposing video models from world generators toward generative renderers. This division of labor raises a fundamental question: if code builds the world, can video models just render it? A reliable generative renderer </p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 提出将 4D 世界构建与视觉生成解耦：由多模态编码 Agent 以代码构建世界，视频模型退化为生成式渲染器，并给出 WorldDraft 以检验「代码建世界、视频只渲染」这一分工下渲染器的可靠性。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 多模态编码agent将4D世界构建与视觉生成解耦，视频模型从世界生成器转为生成式渲染器。WorldDraft探讨代码建世界、视频模型只做渲染这一分工的可行性与可靠渲染器的条件。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.17334" target="_blank" rel="noopener noreferrer">Unbundling Multimodal Vision Encoding</a></h3>
-  <p class="article-stats">👍 13</p>
+  <p class="article-stats">👍 14</p>
   <p class="article-meta">11/12 00:00</p>
   <p class="article-excerpt">How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior f</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 讨论多模态语言模型如何编码视觉输入，将预训练视觉编码器所捆绑的三项设计选择（视觉先验等）逐一拆解，比较预训练编码器、与语言模型联合从零训练、以及完全去掉编码器三类方案的效果差异。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 多模态语言模型的视觉编码方式仍有争议，预训练视觉编码器实际捆绑了视觉先验等多个设计选择。本文将其拆解并分别评估，厘清各部分的实际贡献。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.16905" target="_blank" rel="noopener noreferrer">Factored One-sided Adam-Moment for Practical and Scalable SOAP</a></h3>
-  <p class="article-stats">👍 12</p>
+  <p class="article-stats">👍 14</p>
   <p class="article-meta">11/12 00:00</p>
   <p class="article-excerpt">Second-order optimizers (e.g., Shampoo, SOAP) have emerged as compelling alternatives to Adam/AdamW and promise faster per-step convergence than AdamW in transformer training. However, they still remain costly in practice, and even SOAP still pays substantial optimizer-state memory and eigendecompos</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 针对 SOAP、Shampoo 等二阶优化器在 Transformer 训练中显存与特征分解开销大的问题，提出对 Adam 二阶矩做因子化的单边处理，在保留接近二阶方法的每步收敛速度的同时降低优化器状态内存，使 SOAP 更实用、更易扩展。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Shampoo、SOAP等二阶优化器每步收敛更快，但优化器状态内存与特征分解开销高昂。本文提出分解的单边Adam矩，在保持SOAP实用性的同时降低内存与计算成本。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.12304" target="_blank" rel="noopener noreferrer">Evolving Infra: Agent-Adaptive LLM Serving at Scale</a></h3>
   <p class="article-stats">👍 12</p>
   <p class="article-meta">11/09 00:00</p>
   <p class="article-excerpt">Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent </p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 面向 Agent 类负载的 LLM 推理服务，指出现有 PD 分离架构在运行时调整算力分配与 KV cache 管理上灵活性不足、所用信号过于粗糙，提出可随 Agent 行为自适应演进的 serving 方案以提升大规模部署效率。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Agent类负载已成为LLM推理的主要需求，现有PD分离服务难以在运行时自适应调整算力分配与KV cache管理。Evolving Infra依据细粒度信号动态调度，实现面向agent的自适应服务。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2611.10439" target="_blank" rel="noopener noreferrer">Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction</a></h3>
-  <p class="article-stats">👍 5</p>
+  <p class="article-stats">👍 8</p>
   <p class="article-meta">11/07 00:00</p>
   <p class="article-excerpt">Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding wh</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 针对多用户、多 Agent 场景下的自演化系统，指出现有方案忽略「哪些经验该共享给谁」的判定问题，提出多粒度记忆抽取方法，在不同用户与异构 Agent 之间按粒度选择性共享记忆与经验，避免无效或有害迁移。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://huggingface.co/papers/2611.08538" target="_blank" rel="noopener noreferrer">Subliminal Learning in Vision-Language Models</a></h3>
-  <p class="article-stats">👍 5</p>
-  <p class="article-meta">11/04 00:00</p>
-  <p class="article-excerpt">Subliminal learning is a phenomenon in large language models (LLMs) where a teacher passes a hidden preference to a student through training data unrelated to that preference. We study whether subliminal learning also occurs in vision-language models (VLMs). We finetune a teacher VLM to prefer a spe</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 将「潜意识学习」（Subliminal Learning）从 LLM 扩展到视觉语言模型：微调教师 VLM 使其偏好某特定特征，再用与该偏好无关的数据训练学生模型，检验隐藏偏好是否能通过无关训练数据传递，揭示 VLM 蒸馏中的隐蔽行为迁移风险。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://huggingface.co/papers/2611.16009" target="_blank" rel="noopener noreferrer">JustRUA: A Controlled Study of GPT-6 Robot-Use Agents</a></h3>
-  <p class="article-stats">👍 4</p>
-  <p class="article-meta">11/11 00:00</p>
-  <p class="article-excerpt">GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains. We take th</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> GPT-6 Astra 已能通过固定 harness 直接操控机械臂，但各 robot-use agent 在 RoboDojo 上的分数因 harness 与测试子集不同而难以比较。本文做受控实验，逐项改动设计以分离出真正带来性能提升的因素。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 自进化与群体进化agent需在多用户、异构agent间共享经验，却很少考虑谁该记住什么。本文提出多粒度记忆抽取方法，判定记忆的归属与共享范围。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/papers/2607.13920" target="_blank" rel="noopener noreferrer">DeepStress: Stress-Testing Deep Search Agents</a></h3>
-  <p class="article-stats">👍 4</p>
+  <p class="article-stats">👍 7</p>
   <p class="article-meta">11/12 00:00</p>
   <p class="article-excerpt">While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. Such evidence is rare in benchmark corpora, and resulting failures are hard to reproduce. We propose DeepStress, a dynamic stress-testing framew</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 针对搜索 Agent 面对低质量证据时的鲁棒性研究不足，提出 DeepStress 动态压力测试框架，在基准语料中注入罕见且可复现的劣质证据，系统暴露多步问答 Agent 在噪声与错误信息下的失败模式。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 搜索agent对低质量证据的鲁棒性缺乏研究，benchmark中此类证据稀少且失败难复现。DeepStress提出动态压力测试框架，系统暴露deep search agent的脆弱环节。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://huggingface.co/papers/2611.14418" target="_blank" rel="noopener noreferrer">Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model</a></h3>
-  <p class="article-stats">👍 4</p>
-  <p class="article-meta">11/10 00:00</p>
-  <p class="article-excerpt">Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output distribution looks uncertain (entropy above a threshold or a small top-two marg</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 改变端侧解码固定权重精度的惯例：权重存 8 bit、默认用高 4 bit 解码，仅当输出分布不确定（熵高于阈值或 top-2 间隔过小）时将该步以 8 bit 重算，实现按需精度升级，在几乎不损质量的前提下降低平均计算量。</p>
+  <h3 class="article-title"><a href="https://huggingface.co/papers/2611.08219" target="_blank" rel="noopener noreferrer">Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis</a></h3>
+  <p class="article-stats">👍 6</p>
+  <p class="article-meta">11/05 00:00</p>
+  <p class="article-excerpt">Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans. However, current agents still struggle to finish such tasks, where success requires following long-horizon professional workfl</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 现有agent难以胜任真实生产力任务，因其需遵循长时程专业工作流。Agent-R^2从真实来源数据合成训练数据来扩展agent能力，提升此类任务的完成质量。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://huggingface.co/papers/2611.08538" target="_blank" rel="noopener noreferrer">Subliminal Learning in Vision-Language Models</a></h3>
+  <p class="article-stats">👍 6</p>
+  <p class="article-meta">11/04 00:00</p>
+  <p class="article-excerpt">Subliminal learning is a phenomenon in large language models (LLMs) where a teacher passes a hidden preference to a student through training data unrelated to that preference. We study whether subliminal learning also occurs in vision-language models (VLMs). We finetune a teacher VLM to prefer a spe</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 潜隐学习（subliminal learning）指教师通过与该偏好无关的训练数据把隐藏偏好传给学生。本文在视觉语言模型中验证该现象是否存在，并考察其传播特性。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://huggingface.co/papers/2611.16961" target="_blank" rel="noopener noreferrer">The Value of Thinking: Learning When to Reason in Hybrid Decision Models</a></h3>
+  <p class="article-stats">👍 5</p>
+  <p class="article-meta">11/12 00:00</p>
+  <p class="article-excerpt">Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token. Rather than deciding how much to think, we explore a different paradigm, zero-or-T thinking: a single model either answers from</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 现有自适应推理方法只是缩短或跳过显式推理，答案仍逐token生成。本文提出zero-or-T thinking：单一模型或直接作答、或显式思考，学习在何时值得推理。</p>
 </article>
   </div>
     </div>
@@ -896,53 +917,46 @@
     <div class="source-contents">
       <div class="source-content active" data-source-content="attentionvc-ai" data-sub="x-viral" data-cat="tech">
     <article class="article">
-  <h3 class="article-title"><a href="https://x.com/omooretweets/status/2120554019177611668" target="_blank" rel="noopener noreferrer">Welcome to the B2A Economy</a></h3>
-  <p class="article-stats">@omooretweets · 155.3K 粉丝 · 161.0K 阅 · 509 赞 · 60 转</p>
-  <p class="article-meta">11/11 16:27</p>
-  <p class="article-excerpt">The primary users of the Internet are no longer human. They’re AI agents. Agents now make up the majority of web traffic, write more than half of new articles published online, and generate most of</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 观点帖：互联网的主要用户已不是人类而是 AI agent——agent 占据大部分网页流量，撰写过半新发表的文章，并生成大部分内容。博主据此提出「B2A（企业对 agent）」经济概念，讨论产品与商业该如何为 agent 而不是人设计。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://x.com/GoogleAIStudio/status/2120589299037147177" target="_blank" rel="noopener noreferrer">Gemini Decisions API: Fast, calibrated multimodal decisions</a></h3>
-  <p class="article-stats">@GoogleAIStudio · 216.1K 粉丝 · 43.2K 阅 · 506 赞 · 34 转</p>
-  <p class="article-meta">11/11 18:47</p>
-  <p class="article-excerpt">Introducing the Gemini Decisions API, powered by Gemini Decision 1 model. Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video,</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Google AI Studio 发布 Gemini Decisions API，基于 Gemini Decision 1 模型，一次调用即可批量评估最多 1000 个是/否判断、多选与评分量表问题，覆盖文本、图像、音频、视频等多模态输入，主打快速且经过校准的决策场景。</p>
+  <h3 class="article-title"><a href="https://x.com/josiah_arcanist/status/2121321789192081583" target="_blank" rel="noopener noreferrer">I left Ramp and spent eight months rebuilding the setup I couldn’t live without.</a></h3>
+  <p class="article-stats">@josiah_arcanist · 612 粉丝 · 44.1K 阅 · 508 赞 · 32 转</p>
+  <p class="article-meta">11/13 19:18</p>
+  <p class="article-excerpt">You’re sitting there with your agent prompting it 50 times before putting up a PR. The big dawgs like Ramp are handing off changes to their agents and starting on the next task. Anthropic reported</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 作者离开 Ramp 后花八个月重建自己离不开的 agent 配置。对比点：多数人还要对着 agent 提示 50 次才敢提 PR，而 Ramp 这类团队已让 agent 接手改动、人直接转下一个任务。文中引用 Anthropic 的报告数据佐证这一代差。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://x.com/pmitu/status/2120819448730800542" target="_blank" rel="noopener noreferrer">How to use AI for $0 marketing with Claude (8 Actions Guide)</a></h3>
   <p class="article-stats">@pmitu · 28.2K 粉丝 · 43.0K 阅 · 507 赞 · 55 转</p>
   <p class="article-meta">11/12 10:02</p>
   <p class="article-excerpt">marketing can be a real pain, especially for first-time founders: bad news: you need to build your MVP and continue to develop the product, just as you have to constantly refine your marketing</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 面向首次创业者的实操帖：产品要迭代、营销也不能停，博主给出用 Claude 做「零成本营销」的 8 个 Actions 执行清单，把营销流程拆成可交给 Claude 完成的动作，适合预算为零的独立开发者。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 面向首次创业者的零预算营销指南：用 Claude 跑通 8 个 action，解决既要开发 MVP 又要持续做营销的两难。属于可照着做的流程清单，而非概念科普，适合缺人缺钱的早期团队直接套用。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://x.com/andrewdsouza/status/2121305381515456998" target="_blank" rel="noopener noreferrer">Nobody Trusts Your Agent</a></h3>
   <p class="article-stats">@andrewdsouza · 21.7K 粉丝 · 31.2K 阅 · 538 赞 · 116 转</p>
   <p class="article-meta">11/13 18:13</p>
   <p class="article-excerpt">If 2026 was the year of agents, 2027 will be the year of principals. Nobody has ever trusted an agent, and nobody ever will. An agent is something that acts on someone’s behalf. A principal is the one</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 观点帖：如果说 2026 年是 agent 之年，2027 年将是「principal（委托人）」之年。博主区分 agent 与 principal，认为没人真正信任过 agent，未来价值会落在能承担责任、可被问责的委托方一侧。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 一篇观点帖：若 2026 是 agent 之年，2027 就是 principal（委托人）之年。作者认为 agent 本质是代他人行事，人类从未也不会真正信任它，因此重心应从能力转向授权与责任归属的设计。属于概念框架讨论，而非实操。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://x.com/GoogleAIStudio/status/2120976872729174329" target="_blank" rel="noopener noreferrer">Introducing Gemini 4 Hydrogen</a></h3>
   <p class="article-stats">@GoogleAIStudio · 216.1K 粉丝 · 21.3K 阅 · 510 赞 · 36 转</p>
   <p class="article-meta">11/12 20:27</p>
   <p class="article-excerpt">Hydrogen brings cutting-edge intelligence to everyone. Today, we’re introducing Gemini 4 Hydrogen, bringing cutting-edge intelligence to everyone — with speed and efficiency for everyday coding and</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Google AI Studio 宣布推出 Gemini 4 Hydrogen，主打把前沿智能带给所有人，强调日常编码场景下的速度与效率。属官方模型发布消息，具体基准数据与开放范围需看原文。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Google AI Studio 官方发布 Gemini 4 Hydrogen，定位是把前沿智能普惠化，主打速度与效率，面向日常编码场景。属官方产品公告，正文信息量有限，更多参数与可用性细节需看配套文档。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://x.com/ActionModelAI/status/2120875473429254482" target="_blank" rel="noopener noreferrer">From Human Actions to Community-Owned AI: Inside the Action Model Ecosystem</a></h3>
   <p class="article-stats">@ActionModelAI · 55.9K 粉丝 · 11.9K 阅 · 507 赞 · 411 转</p>
   <p class="article-meta">11/12 13:44</p>
   <p class="article-excerpt">The next generation of AI won&#39;t just answer your questions. It will complete your work. And the people teaching it how deserve a stake in what it becomes. For years, AI companies have turned human</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Action Model 生态介绍：下一代 AI 不只是回答问题，而是替你完成工作。多年被 AI 公司无偿吸收的人类操作数据，应让贡献者以社区共有的形式持有权益——帖子围绕这一激励设计展开。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Action Model 生态介绍：下一代 AI 不只是回答问题，而是替你完成工作，因此提供人类动作数据、教会模型做事的人应获得相应权益。叙事核心是把数据贡献转成社区共有与分成机制，偏项目宣发。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://x.com/teneo_protocol/status/2120877104745132061" target="_blank" rel="noopener noreferrer">How Live Web Data reads the web from the country you choose </a></h3>
   <p class="article-stats">@teneo_protocol · 282.2K 粉丝 · 9.0K 阅 · 506 赞 · 350 转</p>
   <p class="article-meta">11/12 13:51</p>
   <p class="article-excerpt">One URL can show different prices in Brazil, Japan and Mexico, and an AI agent only ever sees its own default view. How the Live Web Data API picks the country per request, with Coursera Plus and</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 技术说明：同一个 URL 在巴西、日本、墨西哥可能显示不同价格，而 AI agent 通常只看到默认地区视图。帖子讲 Live Web Data API 如何按请求选择国家与地区，并以 Coursera Plus 等站点为例演示。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 讲 Live Web Data API 如何按每次请求指定国家，返回对应地区的网页视图。例子是同一个 URL 在巴西、日本、墨西哥显示不同价格，而 AI agent 默认只看到本地区那一种，用 Coursera Plus 做演示。解决 agent 抓取的地理视角偏差。</p>
 </article>
   </div>
     </div>
@@ -952,109 +966,109 @@
     <div class="source-contents">
       <div class="source-content active" data-source-content="_merged" data-sub="ai-news" data-cat="tech">
     <article class="article">
+  <h3 class="article-title"><a href="https://latent.space/p/ainews-the-no-ai-slop-manifesto/" target="_blank" rel="noopener noreferrer">[AINews] The No AI Slop Manifesto</a></h3>
+  
+  <p class="article-meta">Latent Space · 11/14 08:31</p>
+  <p class="article-excerpt">November 13, 2026 — AIE speakers unite to lay out how to fight slop.</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 2026年11月13日，AI Engineer大会的演讲者联合发布「无AI垃圾内容宣言」，阐述如何对抗AI生成的低质内容。</p>
+</article>
+<article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place" target="_blank" rel="noopener noreferrer">Build a Robot Pick-and-Place Simulation with SimReady Assets</a></h3>
   
   <p class="article-meta">Hugging Face Blog · 11/13 18:00</p>
   
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 英伟达在 Hugging Face 博客发布教程，介绍如何用 SimReady 资产搭建机器人抓取与放置的仿真环境，面向机器人开发与仿真训练场景。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 英伟达发布教程，介绍如何使用SimReady资产搭建机器人抓取与放置（pick-and-place）的仿真环境。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/blog/allenai/xybench" target="_blank" rel="noopener noreferrer">XYBench: Helping with the problem behind the question</a></h3>
   
   <p class="article-meta">Hugging Face Blog · 11/13 17:02</p>
   
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 艾伦人工智能研究所（AI2）在 Hugging Face 博客介绍 XYBench 基准，聚焦于「问题背后的问题」，即评估模型对提问意图与隐含前提的理解能力。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Allen AI 发布 XYBench 基准，关注「问题背后的问题」，即帮助处理提问背后的真实问题。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://openai.com/index/introducing-chatgpt-wallet" target="_blank" rel="noopener noreferrer">Introducing ChatGPT Wallet</a></h3>
   
   <p class="article-meta">OpenAI News · 11/13 15:00</p>
   <p class="article-excerpt">Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> OpenAI 推出 ChatGPT Wallet，为 ChatGPT Work、Codex 和 dots 中的智能体提供安全支付方式，购买需经用户批准，并沿用现有银行卡保护机制。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> OpenAI 推出 ChatGPT Wallet，为 ChatGPT Work、Codex 与 dots 中的智能体提供安全支付方式；付款需经用户批准，并沿用现有信用卡保护机制。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/blog/ggml-org/llama-cpp-v1" target="_blank" rel="noopener noreferrer">llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem</a></h3>
   
   <p class="article-meta">Hugging Face Blog · 11/13 14:05</p>
   
-  <p class="article-summary"><span class="summary-label">中文介绍</span> ggml 组织发布 llama.cpp v1.0.0，称其为本地 AI 生态奠定更坚实基础，标志这一开源本地推理框架进入正式版本阶段。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> llama.cpp 发布 v1.0.0 版本，官方称其为本地 AI 生态提供更坚实的基础。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/" target="_blank" rel="noopener noreferrer">[AINews] Jensen Huang resigns after 33 years leading NVIDIA</a></h3>
   
   <p class="article-meta">Latent Space · 11/13 09:04</p>
   <p class="article-excerpt">November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 据 Latent Space 报道，2026 年 11 月 12 日，执掌英伟达 33 年的黄仁勋卸任，由 Colette Kress 出任临时 CEO，外界关注开源与美国 AI 领导地位走向。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 2026年11月12日消息，黄仁勋在领导英伟达33年后辞任CEO，由 Colette Kress 出任临时CEO，外界关注开源与美国AI领导地位的走向。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://openai.com/business/customer-stories/shield" target="_blank" rel="noopener noreferrer">Shield helps technicians hand off legacy portal work with OpenAI</a></h3>
   
   <p class="article-meta">OpenAI News · 11/13 08:00</p>
   <p class="article-excerpt">Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Shield 利用 OpenAI 技术帮助 IT 技术人员交接遗留门户系统中的工作，其 Forge 智能体可自动操作系统，让技术人员专注需要人工判断的问题。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Shield 借助 OpenAI 帮助IT技术员交接遗留门户系统的工作，其 Forge 智能体可代为操作系统，让技术员专注需要人工判断的问题。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://latent.space/p/artcraft/" target="_blank" rel="noopener noreferrer">AI Ambition: ArtCraft Cloned Photoshop and Now Wants to &quot;Rebuild Everything&quot;</a></h3>
   
   <p class="article-meta">Latent Space · 11/13 04:17</p>
   <p class="article-excerpt">ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> ArtCraft 借助 AI 将 Photoshop 重写为开源软件，CEO Brandon Thomas 表示目标不止于此，还希望「重建一切」，进一步夺回互联网。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> ArtCraft 用AI将 Photoshop 重写为开源软件，CEO Brandon Thomas 表示愿景更大：要「重建一切」，乃至夺回互联网。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://tldr.tech/ai/2026-11-13" target="_blank" rel="noopener noreferrer">Gemini 4 Hydrogen 🚀, self-hosted Claude agents 🔒, Replit agent commerce 🛒</a></h3>
   
   <p class="article-meta">TLDR AI · 11/13 00:00</p>
   
-  <p class="article-summary"><span class="summary-label">中文介绍</span> TLDR AI 2026 年 11 月 13 日简报要点：Gemini 4 Hydrogen 发布、可自托管的 Claude 智能体，以及 Replit 智能体商业化功能。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> TLDR AI 11月13日简报涵盖：Gemini 4 Hydrogen、可自托管的 Claude 智能体，以及 Replit 的智能体电商功能。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/" target="_blank" rel="noopener noreferrer">Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility</a></h3>
   
   <p class="article-meta">MIT Tech Review AI · 11/12 20:16</p>
   <p class="article-excerpt">Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “pote</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> MIT 科技评论报道，英伟达代表私下向伊利诺伊州议员 Bill Foster 表示，技术上可实现对芯片的追踪，以落实「芯片安全法案」中的反走私要求，尽管行业团体公开质疑其可行性。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 英伟达代表私下向伊利诺伊州议员 Bill Foster 表示，落实《芯片安全法案》所要求的防走私芯片追踪在技术上可行；与此同时，行业组织公开质疑该方案的可行性。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://openai.com/business/customer-stories/amplitude" target="_blank" rel="noopener noreferrer">How Amplitude ships product improvements in 1–2 days with OpenAI</a></h3>
   
   <p class="article-meta">OpenAI News · 11/12 20:00</p>
   <p class="article-excerpt">Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Amplitude 基于 OpenAI 模型打造主动式产品智能体 Wave，可识别应开发的功能、协助团队用编码智能体交付改动并衡量效果，将产品改进周期缩短至 1 至 2 天。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Amplitude 主要基于 OpenAI 模型构建主动式产品智能体 Wave，可识别应开发的功能、协助团队用编码智能体交付改动，将产品改进周期缩短至1至2天。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite" target="_blank" rel="noopener noreferrer">LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B</a></h3>
   
   <p class="article-meta">Hugging Face Blog · 11/12 19:07</p>
   
-  <p class="article-summary"><span class="summary-label">中文介绍</span> IBM 在 Hugging Face 博客介绍面向大模型原生的标记语言 LLMON，并已应用于 Granite 4.1 的 3B 与 8B 模型。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://deepmind.google/blog/introducing-gemini-4-hydrogen/" target="_blank" rel="noopener noreferrer">Introducing Gemini 4 Hydrogen</a></h3>
   
-  <p class="article-meta">DeepMind Blog · 11/12 18:00</p>
-  
-  <p class="article-summary"><span class="summary-label">中文介绍</span> DeepMind 在官方博客发布 Gemini 4 Hydrogen，为其 Gemini 系列模型的新一代版本，具体能力与开放范围见原文。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://openai.com/business/customer-stories/gondola" target="_blank" rel="noopener noreferrer">Gondola doubles revenue as its team builds more with Codex</a></h3>
   
   <p class="article-meta">OpenAI News · 11/12 12:00</p>
   <p class="article-excerpt">Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Gondola 帮助创意工作者获得署名与工作机会，借助 Codex 使其首席工程师产出提升 50%，并用 ChatGPT 简化日常工作，实现营收翻倍。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Gondola 借助 Codex 使其首席工程师产出提升50%，并用 ChatGPT 简化日常工作，公司收入实现翻倍。其业务是帮助创意工作者获得署名与工作机会。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://openai.com/business/customer-stories/holidays-extras-codex" target="_blank" rel="noopener noreferrer">Holiday Extras is rethinking what it can build with Codex</a></h3>
   
   <p class="article-meta">OpenAI News · 11/12 09:30</p>
   <p class="article-excerpt">With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 旅游附加服务公司 Holiday Extras 借助 Codex 将客户专业知识转化为更好的应用，提升预订转化率，并开拓新的增长空间。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Holiday Extras 借助 Codex 将客户专业经验转化为更好的应用，提升预订转化率，并开辟新的增长空间。</p>
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://latent.space/p/ainews-d-day-decision-models-day/" target="_blank" rel="noopener noreferrer">[AINews] D-Day (Decision Models Day)</a></h3>
   
   <p class="article-meta">Latent Space · 11/12 05:26</p>
   <p class="article-excerpt">November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 2026 年 11 月 11 日 AI 行业动态：谷歌进入决策模型市场；Cloudflare 在 AI Engineer 活动上展示分类器可处理的构建失败环节；TypeSafe AI 展示其生产客户。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 2026年11月11日，谷歌进入决策模型市场；在 AI Engineer 大会上，Cloudflare 展示分类器可处理构建失败中的部分环节，TypeSafe AI 则介绍了其生产客户。</p>
 </article>
   </div>
     </div>
@@ -1062,7 +1076,7 @@
   </section>
   <section class="panel" data-panel="trading"><section class="trading-overview-card">
     <span class="eyebrow">市场总览</span>
-    <p class="overview-text trading-overview-text">美股方面，SPY 现价 754.37，略低于 SMA20 759.02 与 SMA50 764.43，RSI14 为 47.1，MACD -4.12 贴近信号线 -4.09，趋势标签为中性；QQQ 更弱，1 日 -1.2%、距 52 周高 -10.88%、RSI 42.8。个股分化明显：AAPL、MSFT 维持多头排列，AAPL RSI 60.6 并出现 MACD 金叉；而 NVDA 5 日 -12.75%、RSI 24.9 进入超卖，META、GOOGL 则以「MACD 金叉＋空头排列」并存的修复形态为主。加密板块技术面最弱，BTC RSI 23.5、ETH 23.7、SOL 17.8 同步处于超卖，BTC 距 52 周高 -32.74%；加密总市值 2.29 万亿美元、24 小时 -4.47%，BTC 主导率 58.8%、ETH 10.1%，恐慌贪婪指数 13 处极度恐慌区间，与超卖读数互相印证。中概股整体承压，BABA 5 日 -13.77%、RSI 33.7 并触发 MACD 死叉，价格回落至 SMA200 122.79 之下；腾讯 -3.06%、呈空头排列；仅 JD、PDD 当日小幅反弹。商品外汇方面，黄金 3886.3 跌破 SMA20 4035.2 与 SMA200 4472.25、MACD 死叉，WTI 原油 88.56 低于 SMA20 95.73，美元指数 103.41 则站上全部均线、RSI 66.8 且距 52 周高仅 -0.03%，10 年期美债收益率 5.15% 上行至 SMA20 4.99 上方，整体风险偏好呈结构性分化。</p>
+    <p class="overview-text trading-overview-text">美股技术面分化明显：SPY 报 754.37，低于 SMA20 759.02 与 SMA50 764.43，仅守在 SMA200 731.92 上方，RSI14 47.1 属中性；QQQ 现价 679.89 低于 SMA20 695.45 与 SMA50 717.87，RSI14 42.8。个股中 AAPL 凭 MACD 金叉、多头排列与 RSI14 60.6 结构最强，NVDA 5 日 -12.75%、RSI14 24.9 进入超卖，为美股最弱一环。加密技术面显著恶化：BTC 报 64291.26，1 日 -5.8%、5 日 -14.53%，RSI14 20.3 超卖，MACD -3137.6 低于信号线；ETH 与 SOL 的 RSI14 分别为 20.3 与 15.2，SOL 单日 -10%。对照加密恐慌贪婪指数 10（极度恐慌）、加密总市值 2.21 万亿美元（24h -6.47%）、BTC 主导率 58.6%、ETH 9.9%，资金明显向龙头集中。中概整体偏空：BABA 5 日 -13.77%、RSI14 33.7、触发 MACD 死叉并贴近 52 周低；0700.HK 空头排列、RSI14 39.2；JD 的 RSI14 57、MACD 0.3689 高于信号 0.1969，相对中性。商品外汇与宏观：黄金 3886.3 处空头排列、MACD 死叉、RSI14 35.9；WTI 原油 88.56 低于 SMA20 95.73；美元指数 103.41 以 RSI14 66.8、MACD 金叉、多头排列、距 52 周高仅 -0.03% 成为技术结构最强者；10Y 美债收益率 5.15%、RSI14 61 同步多头排列；VIX 19.3、RSI14 50.9，5 日 -24.73%，波动率本身未给出极端读数。</p>
   </section>
 
   <section class="trading-watchlist">
@@ -1076,27 +1090,27 @@
       </div>
       <span class="pick-stance pick-stance-bull">偏上行</span>
     </header>
-    <p class="pick-rationale">现价 356.27，高于 SMA20 346.15、SMA50 339.04 与 SMA200 301.25，构成多头排列；RSI14 为 60.6，处中性偏强区间；MACD 4.1727 高于信号线 3.2794，已触发金叉且红柱为正；距 52 周高仅 -1.26%，5 日累计 +4.06%。各项指标读数显示当前技术状态偏向上行一侧。</p>
+    <p class="pick-rationale">现价 356.27 高于 SMA20 346.15、SMA50 339.04 与 SMA200 301.25，构成标准多头排列；MACD 4.1727 高于信号线 3.2794，刚触发金叉；RSI14 60.6 处强势区但未超买；距 52 周高仅 -1.26%，1 日 +0.39%、5 日 +4.06%，动量与趋势读数同向。</p>
   </article>
 <article class="trading-pick stance-bull">
     <header class="pick-head">
       <div class="pick-symbol-block">
-        <span class="pick-symbol">META</span>
-        <span class="pick-name">Meta (META)</span>
+        <span class="pick-symbol">DX-Y.NYB</span>
+        <span class="pick-name">美元指数 DXY</span>
       </div>
       <span class="pick-stance pick-stance-bull">偏上行</span>
     </header>
-    <p class="pick-rationale">现价 641.69，1 日 +2.9%、5 日 +5.17%，为样本内涨幅前列；MACD -15.2415 高于信号线 -17.6052，形成金叉且绿柱收敛；RSI14 47.8 居中；但价格仍低于 SMA50 679.81，仅在 SMA20 637.06 上方附近胶着，趋势标签为中性，属超跌后的修复性结构。</p>
+    <p class="pick-rationale">现价 103.41 高于 SMA20 102.08、SMA50 101.41 与 SMA200 99.85，多头排列完整；MACD 0.3575 高于信号 0.2428，维持金叉；RSI14 66.8 逼近超买区；距 52 周高仅 -0.03%，1 日 +0.23%、5 日 +1.09%，为全场技术结构最完整者。</p>
   </article>
 <article class="trading-pick stance-neutral">
     <header class="pick-head">
       <div class="pick-symbol-block">
-        <span class="pick-symbol">JD</span>
-        <span class="pick-name">京东 (JD)</span>
+        <span class="pick-symbol">SPY</span>
+        <span class="pick-name">标普 500 ETF (SPY)</span>
       </div>
       <span class="pick-stance pick-stance-neutral">中性</span>
     </header>
-    <p class="pick-rationale">现价 27.91，贴近 SMA20 26.83 与 SMA50 26.87，仍低于 SMA200 28.52；RSI14 57 处中性区间；MACD 0.3689 高于信号线 0.1969，柱状体为正但幅度有限；1 日 +1.53% 与 5 日 -4.12% 方向相反，多空信号相互抵消，读数呈区间震荡特征。</p>
+    <p class="pick-rationale">现价 754.37 位于 SMA20 759.02 与 SMA50 764.43 之下、SMA200 731.92 之上；RSI14 47.1 贴近中轴；MACD -4.1229 与信号 -4.092 几乎重合，柱状接近零轴，无明确金叉或死叉；1 日 -0.36% 但 5 日 +2.59%，距 52 周高 -3.49%，整体呈震荡中性读数。</p>
   </article>
 <article class="trading-pick stance-bear">
     <header class="pick-head">
@@ -1106,7 +1120,7 @@
       </div>
       <span class="pick-stance pick-stance-bear">偏下行</span>
     </header>
-    <p class="pick-rationale">现价 162.85，显著低于 SMA20 198.69、SMA50 214.65 与 SMA200 204.19，呈空头排列；RSI14 24.9 已进入超卖区；MACD -14.2314 低于信号线 -10.11，绿柱继续扩张；5 日 -12.75%、距 52 周高 -33.09%，下行动量指标读数最为明显。</p>
+    <p class="pick-rationale">现价 162.85 同时低于 SMA20 198.69、SMA50 214.65 与 SMA200 204.19；5 日 -12.75%、1 日 -2.01%，动量持续走弱；RSI14 24.9 进入超卖；MACD -14.2314 与信号 -10.11 的负值柱状仍在扩张，未见金叉；距 52 周高 -33.09%。</p>
   </article>
 <article class="trading-pick stance-bear">
     <header class="pick-head">
@@ -1116,7 +1130,7 @@
       </div>
       <span class="pick-stance pick-stance-bear">偏下行</span>
     </header>
-    <p class="pick-rationale">现价 67132.51，低于 SMA20 75940.86 与 SMA50 80197.18，亦低于 SMA200 72989.29；RSI14 23.5 处超卖；MACD -2910.96 低于信号线 -2037.77，绿柱扩大；5 日 -10.76%、距 52 周高 -32.74%。配合恐慌贪婪指数 13 的极度恐慌读数，技术状态呈弱势超卖。</p>
+    <p class="pick-rationale">现价 64291.26 远低于 SMA20 75798.8 与 SMA50 80140.35，并略低于 SMA200 72975.09；1 日 -5.8%、5 日 -14.53%；RSI14 20.3 处超卖；MACD -3137.6 低于信号 -2083.1，负柱扩大；距 52 周高 -34.3%，与极度恐慌的 10 读数方向一致。</p>
   </article>
     </div>
   </section>
@@ -1353,20 +1367,20 @@
     </div><div class="trading-group-content" data-group="crypto">
       <div class="crypto-widgets"><div class="crypto-widget fg-fear-extreme">
       <div class="widget-label">加密恐慌贪婪</div>
-      <div class="widget-value">13</div>
+      <div class="widget-value">10</div>
       <div class="widget-sub">极度恐慌</div>
     </div><div class="crypto-widget">
       <div class="widget-label">加密总市值</div>
-      <div class="widget-value">$2.29 T</div>
-      <div class="widget-sub negative">-4.47% / 24h</div>
+      <div class="widget-value">$2.21 T</div>
+      <div class="widget-sub negative">-6.47% / 24h</div>
     </div><div class="crypto-widget">
       <div class="widget-label">BTC 主导率</div>
-      <div class="widget-value">58.8%</div>
-      <div class="widget-sub">ETH 10.1%</div>
+      <div class="widget-value">58.6%</div>
+      <div class="widget-sub">ETH 9.9%</div>
     </div><div class="crypto-widget">
       <div class="widget-label">24h 成交量</div>
-      <div class="widget-value">$79.8 B</div>
-      <div class="widget-sub">活跃币 22,238</div>
+      <div class="widget-value">$117.2 B</div>
+      <div class="widget-sub">活跃币 22,250</div>
     </div></div>
       <article class="ticker-card">
     <header class="ticker-head">
@@ -1375,17 +1389,17 @@
         <p class="ticker-name">Bitcoin</p>
       </div>
       <div class="ticker-price-block">
-        <span class="ticker-price">$67,132.51</span>
-        <span class="ticker-pct negative">-1.64%</span>
+        <span class="ticker-price">$64,291.26</span>
+        <span class="ticker-pct negative">-5.80%</span>
       </div>
     </header>
     <dl class="ticker-indicators">
-      <div><dt>5 日</dt><dd class="negative">-10.76%</dd></div>
-      <div><dt>距 52w 高</dt><dd>-32.7%</dd></div>
-      <div><dt>RSI(14)</dt><dd class="rsi-oversold">23.5</dd></div>
+      <div><dt>5 日</dt><dd class="negative">-14.53%</dd></div>
+      <div><dt>距 52w 高</dt><dd>-34.3%</dd></div>
+      <div><dt>RSI(14)</dt><dd class="rsi-oversold">20.3</dd></div>
       <div><dt>趋势</dt><dd class="trend-neutral">中性</dd></div>
-      <div><dt>SMA 20 / 50 / 200</dt><dd>75,940.86 / 80,197.18 / 72,989.29</dd></div>
-      <div><dt>MACD / 信号</dt><dd>-2,910.955 / -2,037.770</dd></div>
+      <div><dt>SMA 20 / 50 / 200</dt><dd>75,798.80 / 80,140.35 / 72,975.09</dd></div>
+      <div><dt>MACD / 信号</dt><dd>-3,137.607 / -2,083.101</dd></div>
     </dl>
     <div class="ticker-signals"><span class="signal-pill tone-caution">RSI 超卖</span></div>
   </article><article class="ticker-card">
@@ -1395,17 +1409,17 @@
         <p class="ticker-name">Ethereum</p>
       </div>
       <div class="ticker-price-block">
-        <span class="ticker-price">$1,896.68</span>
-        <span class="ticker-pct negative">-1.60%</span>
+        <span class="ticker-price">$1,787.94</span>
+        <span class="ticker-pct negative">-7.24%</span>
       </div>
     </header>
     <dl class="ticker-indicators">
-      <div><dt>5 日</dt><dd class="negative">-11.02%</dd></div>
-      <div><dt>距 52w 高</dt><dd>-45.0%</dd></div>
-      <div><dt>RSI(14)</dt><dd class="rsi-oversold">23.7</dd></div>
+      <div><dt>5 日</dt><dd class="negative">-16.12%</dd></div>
+      <div><dt>距 52w 高</dt><dd>-48.1%</dd></div>
+      <div><dt>RSI(14)</dt><dd class="rsi-oversold">20.3</dd></div>
       <div><dt>趋势</dt><dd class="trend-neutral">中性</dd></div>
-      <div><dt>SMA 20 / 50 / 200</dt><dd>2,194.57 / 2,397.83 / 2,145.26</dd></div>
-      <div><dt>MACD / 信号</dt><dd>-118.978 / -90.893</dd></div>
+      <div><dt>SMA 20 / 50 / 200</dt><dd>2,189.13 / 2,395.66 / 2,144.72</dd></div>
+      <div><dt>MACD / 信号</dt><dd>-127.653 / -92.628</dd></div>
     </dl>
     <div class="ticker-signals"><span class="signal-pill tone-caution">RSI 超卖</span></div>
   </article><article class="ticker-card">
@@ -1415,17 +1429,17 @@
         <p class="ticker-name">Solana</p>
       </div>
       <div class="ticker-price-block">
-        <span class="ticker-price">$75.19</span>
-        <span class="ticker-pct negative">-3.72%</span>
+        <span class="ticker-price">$70.29</span>
+        <span class="ticker-pct negative">-10.00%</span>
       </div>
     </header>
     <dl class="ticker-indicators">
-      <div><dt>5 日</dt><dd class="negative">-13.12%</dd></div>
-      <div><dt>距 52w 高</dt><dd>-49.3%</dd></div>
-      <div><dt>RSI(14)</dt><dd class="rsi-oversold">17.8</dd></div>
+      <div><dt>5 日</dt><dd class="negative">-18.79%</dd></div>
+      <div><dt>距 52w 高</dt><dd>-52.6%</dd></div>
+      <div><dt>RSI(14)</dt><dd class="rsi-oversold">15.2</dd></div>
       <div><dt>趋势</dt><dd class="trend-neutral">中性</dd></div>
-      <div><dt>SMA 20 / 50 / 200</dt><dd>90.46 / 102.91 / 88.86</dd></div>
-      <div><dt>MACD / 信号</dt><dd>-6.623 / -5.480</dd></div>
+      <div><dt>SMA 20 / 50 / 200</dt><dd>90.22 / 102.82 / 88.83</dd></div>
+      <div><dt>MACD / 信号</dt><dd>-7.014 / -5.558</dd></div>
     </dl>
     <div class="ticker-signals"><span class="signal-pill tone-caution">RSI 超卖</span></div>
   </article>
@@ -1464,7 +1478,7 @@
     </header>
     <dl class="ticker-indicators">
       <div><dt>5 日</dt><dd class="negative">-4.89%</dd></div>
-      <div><dt>距 52w 高</dt><dd>-40.4%</dd></div>
+      <div><dt>距 52w 高</dt><dd>-40.0%</dd></div>
       <div><dt>RSI(14)</dt><dd class="rsi-normal">46.9</dd></div>
       <div><dt>趋势</dt><dd class="trend-bearish">空头</dd></div>
       <div><dt>SMA 20 / 50 / 200</dt><dd>79.91 / 79.40 / 89.81</dd></div>
@@ -1504,7 +1518,7 @@
     </header>
     <dl class="ticker-indicators">
       <div><dt>5 日</dt><dd class="negative">-7.91%</dd></div>
-      <div><dt>距 52w 高</dt><dd>-41.3%</dd></div>
+      <div><dt>距 52w 高</dt><dd>-39.8%</dd></div>
       <div><dt>RSI(14)</dt><dd class="rsi-normal">39.2</dd></div>
       <div><dt>趋势</dt><dd class="trend-bearish">空头</dd></div>
       <div><dt>SMA 20 / 50 / 200</dt><dd>399.16 / 417.81 / 469.15</dd></div>
@@ -1580,7 +1594,7 @@
 
   <section class="trading-risk">
     <span class="eyebrow">风险提示</span>
-    <p>本报告仅依据公开行情数据计算出的技术指标读数与形态进行描述，不构成投资建议；过去走势不代表未来表现，超买超卖、金叉死叉等信号均可能失效，仅供技术指标解读参考。</p>
+    <p>本报告全部结论仅为对公开行情数据所计算技术指标的客观复述，过去走势不代表未来表现，任何指标读数均不构成方向预测或操作建议，仅供技术指标解读参考。</p>
   </section></section>
   <section class="panel" data-panel="politics">
     <div class="sub-content active" data-sub-content="world" data-cat="politics">
@@ -1588,109 +1602,109 @@
     <div class="source-contents">
       <div class="source-content active" data-source-content="_merged" data-sub="world" data-cat="politics">
     <article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february?traffic_source=rss" target="_blank" rel="noopener noreferrer">UN says 25 seafarers killed in, around Hormuz since US-Israel war on Iran</a></h3>
+  <h3 class="article-title"><a href="https://www.theguardian.com/australia-news/2026/nov/15/anthony-albanese-welcomes-trump-xi-putin-summit-even-as-european-leaders-express-reservations" target="_blank" rel="noopener noreferrer">Anthony Albanese welcomes Trump-Xi-Putin summit – even as European leaders express reservations</a></h3>
   
-  <p class="article-meta">Al Jazeera · 11/14 07:46</p>
-  <p class="article-excerpt">&#39;Situation cannot become new normal&#39;, says UN&#39;s Khaled Khiari, as Iran reports three more vessels hitting mines.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 联合国官员哈利德·基亚里表示，自2月美以对伊朗开战以来，霍尔木兹海峡及其周边已有25名海员丧生，并称「这一状况不能成为新常态」。伊朗方面报告又有三艘船只触雷。</p>
+  <p class="article-meta">The Guardian · 11/15 06:22</p>
+  <p class="article-excerpt">‘We think dialogue is a good thing,’ Australian PM says after German chancellor urges the US to work with Europe for peace in Ukraine Australia has endorsed this week’s historic summit between Donald Trump, Xi Jinping and Vladimir Putin in China, even as European leaders warn that the US president m</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 澳大利亚总理阿尔巴尼斯对本周在中国举行的特朗普、习近平与普京峰会表示欢迎，称「对话是好事」。此前德国总理呼吁美国与欧洲合作推动乌克兰和平，欧洲多国领导人则持保留态度。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/video/newsfeed/2026/11/14/missing-australian-teenager-reunites-with-his-mother?traffic_source=rss" target="_blank" rel="noopener noreferrer">Missing Australian teenager reunites with his mother</a></h3>
+  <h3 class="article-title"><a href="https://www.aljazeera.com/news/2026/11/15/secret-votes-and-vetoes-how-will-the-next-un-chief-be-picked?traffic_source=rss" target="_blank" rel="noopener noreferrer">Secret votes and vetoes: How will the next UN chief be picked?</a></h3>
   
-  <p class="article-meta">Al Jazeera · 11/14 07:44</p>
-  <p class="article-excerpt">A 17-year-old Australian teenager who went missing for six days has been reunited with his mother.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 一名失踪六天的17岁澳大利亚少年已与其母亲团聚。</p>
+  <p class="article-meta">Al Jazeera · 11/15 06:11</p>
+  <p class="article-excerpt">With no frontrunner for the job, eight candidates are vying for the UN Security Council&#39;s recommendation.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 下任联合国秘书长人选角逐中，八名候选人正争取安理会推荐，目前尚无领跑者。遴选过程涉及安理会秘密投票与常任理事国否决权。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">What we know about the longest ground stop since 9/11</a></h3>
+  <h3 class="article-title"><a href="https://www.aljazeera.com/news/2026/11/15/francophone-summit-opens-in-cambodia-amid-rwanda-dr-congo-rift?traffic_source=rss" target="_blank" rel="noopener noreferrer">Francophone summit opens in Cambodia amid Rwanda-DR Congo rift</a></h3>
   
-  <p class="article-meta">BBC World · 11/14 07:42</p>
-  <p class="article-excerpt">US officials say the disruption was caused by old equipment overloading and not a cyber-attack.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 美国官员称，这场被称为9·11以来最长的全国航班停飞由老旧设备过载引发，并非网络攻击所致。</p>
+  <p class="article-meta">Al Jazeera · 11/15 05:05</p>
+  <p class="article-excerpt">Democratic Republic of the Congo and Rwanda clash over who should lead the organisation of French-speaking nations.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 法语国家组织峰会15日在柬埔寨开幕，刚果民主共和国与卢旺达在会上就该由谁领导这一法语国家组织发生争执。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/sports/2026/11/14/reijnders-hattrick-netherlands-germany-uefa-nations-league-football?traffic_source=rss" target="_blank" rel="noopener noreferrer">Reijnders’ hat-trick fires Dutch to 7-0 rout of Greece, Germany beat Serbia</a></h3>
+  <h3 class="article-title"><a href="https://www.nytimes.com/2026/11/15/world/europe/italy-italianization-europe-horowitz.html" target="_blank" rel="noopener noreferrer">Is Italy the Model for Europe’s Future?</a></h3>
   
-  <p class="article-meta">Al Jazeera · 11/14 07:19</p>
-  <p class="article-excerpt">Netherlands&#39; 7-0 annihilation of Greece means the Germans will likely need to win on Monday to reach the quarterfinals.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 欧国联比赛中，赖因德斯上演帽子戏法，荷兰7比0大胜希腊；德国击败塞尔维亚。此结果意味着德国大概率需在周一取胜才能晋级八强。</p>
+  <p class="article-meta">NYT World · 11/15 05:01</p>
+  <p class="article-excerpt">Over more than a quarter-century, I’ve watched Europe’s politics become more like Italy’s, with all the resulting instability, as the far right came in from the cold.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 纽约时报评论文章认为，过去逾25年间欧洲政治日益「意大利化」，极右翼由边缘进入主流，随之而来的是政府更迭频繁与政治不稳定加剧。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/video/newsfeed/2026/11/14/protesters-heckle-hakeem-jeffries-at-democratic-conference?traffic_source=rss" target="_blank" rel="noopener noreferrer">Protesters heckle Hakeem Jeffries at Democratic conference</a></h3>
+  <h3 class="article-title"><a href="https://www.nytimes.com/2026/11/15/world/europe/in-europe-an-emboldened-iran-contributes-to-a-sense-of-anxiety.html" target="_blank" rel="noopener noreferrer">In Europe, an Emboldened Iran Contributes to a Sense of Anxiety</a></h3>
   
-  <p class="article-meta">Al Jazeera · 11/14 07:18</p>
-  <p class="article-excerpt">US House Minority Leader Hakeem Jeffries faced repeated heckling at a Democratic conference in Denver.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 美国众议院少数党领袖哈基姆·杰弗里斯在丹佛举行的一场民主党会议上多次遭到抗议者起哄打断。</p>
+  <p class="article-meta">NYT World · 11/15 05:01</p>
+  <p class="article-excerpt">Prosecutors and government officials believe Iran or its proxies are behind a series of security breaches and threats in Britain and Europe, unsettling the region.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 英国及欧洲多国检察官和政府官员认为，伊朗或其代理人涉嫌参与一系列安全事件与威胁，令欧洲地区不安情绪上升。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.nytimes.com/live/2026/11/13/us/ground-stop-nationwide-flights-faa/nationwide-ground-stop-flights-faa" target="_blank" rel="noopener noreferrer">Here’s the latest.</a></h3>
+  <h3 class="article-title"><a href="https://www.nytimes.com/2026/11/15/world/canada/grizzly-bear-boss-banff-national-park-alberta.html" target="_blank" rel="noopener noreferrer">In Banff, a Grizzly Bear Known as ‘the Boss’ Rules the National Park</a></h3>
   
-  <p class="article-meta">NYT World · 11/14 07:15</p>
-  <p class="article-excerpt">Trump administration officials blamed a telecommunication outage but said they said did not know its cause.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 特朗普政府官员将全国航班停飞归咎于电信中断，但表示尚不清楚中断原因。</p>
+  <p class="article-meta">NYT World · 11/15 05:01</p>
+  <p class="article-excerpt">Bear 122 has survived a train, cars and rival bears. Some fear the biggest threat to his life now is his own fame.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 加拿大班夫国家公园的灰熊「122号」被称作「老大」，它历经火车、汽车与同类争斗而存活，有人担心如今名声本身已成为其最大威胁。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.theguardian.com/travel/2026/nov/14/eurotunnel-drive-in-fingerprint-trial-folkestone-calais-border" target="_blank" rel="noopener noreferrer">UK-EU breakthrough will allow airport-style checks at Eurotunnel to avoid border ‘chaos’</a></h3>
+  <h3 class="article-title"><a href="https://www.aljazeera.com/news/2026/11/15/new-york-democratic-socialists-urge-ocasio-cortez-to-run-for-us-president?traffic_source=rss" target="_blank" rel="noopener noreferrer">New York Democratic Socialists urge Ocasio-Cortez to run for US president</a></h3>
   
-  <p class="article-meta">The Guardian · 11/14 07:00</p>
-  <p class="article-excerpt">Eurotunnel owner Getlink wants to replicate ‘airport experience’ at Folkestone and Calais, without making people get out of cars Airport-style passport and fingerprinting controls are to be introduced at Eurotunnel in an attempt to prevent “short-term and long-term chaos” in Folkestone and Calais. I</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 英欧达成突破性安排，将在Eurotunnel英法两端（福克斯通与加来）引入类似机场的护照与指纹检查，车主无需下车。隧道运营方Getlink希望借此避免边境「短期与长期混乱」。</p>
+  <p class="article-meta">Al Jazeera · 11/15 04:44</p>
+  <p class="article-excerpt">Delegates at NYC-DSA convention pass resolution formally calling on Congresswoman AOC to run in 2028 presidential race.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 纽约市民主社会主义者组织代表大会通过决议，正式呼吁国会众议员奥卡西奥-科尔特斯参加2028年美国总统选举。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/opinions/2026/11/14/the-ancs-implosion-was-decades-in-the-making?traffic_source=rss" target="_blank" rel="noopener noreferrer">The ANC’s implosion was decades in the making</a></h3>
+  <h3 class="article-title"><a href="https://www.aljazeera.com/video/newsfeed/2026/11/15/video-shows-moment-of-brooklyn-building-collapse-from-inside?traffic_source=rss" target="_blank" rel="noopener noreferrer">Video shows moment of Brooklyn building collapse from inside</a></h3>
   
-  <p class="article-meta">Al Jazeera · 11/14 06:52</p>
-  <p class="article-excerpt">Zuma squandered Mbeki’s gains, while Ramaphosa’s dithering turned the ANC’s promised renewal into a fight for survival.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 评论文章认为，南非非洲人国民大会（ANC）的崩解历经数十年：祖马挥霍了姆贝基时期的成果，而拉马福萨的犹豫不决使该党承诺的复兴沦为生存之战。</p>
+  <p class="article-meta">Al Jazeera · 11/15 04:31</p>
+  <p class="article-excerpt">Newly released nanny cam footage shows the moment an apartment building collapsed in Brooklyn as children played inside.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 新公布的保姆摄像头画面显示布鲁克林一栋公寓楼倒塌的瞬间，事发时室内有儿童正在玩耍。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/economy/2026/11/14/southeast-asian-leaders-to-meet-as-trump-visit-highlights-trade-disruption?traffic_source=rss" target="_blank" rel="noopener noreferrer">Southeast Asian leaders to meet as Trump visit highlights trade disruption</a></h3>
+  <h3 class="article-title"><a href="https://www.nytimes.com/2026/11/14/world/americas/mexico-gabito-ballesteros-arrested-narocorridos.html" target="_blank" rel="noopener noreferrer">A Mexican Artist Sang Some of His Hits. Authorities Stopped the Show, Then Arrested Him.</a></h3>
   
-  <p class="article-meta">Al Jazeera · 11/14 06:48</p>
-  <p class="article-excerpt">ASEAN summit comes as US president embarks on Asia trip that will see him meet China&#39;s Xi.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 东盟峰会召开之际，美国总统特朗普展开亚洲之行，期间将与中国国家主席习近平会面，贸易中断成为焦点议题。</p>
+  <p class="article-meta">NYT World · 11/15 04:18</p>
+  <p class="article-excerpt">A concert by the singer Gabito Ballesteros was suspended after he sang songs that supposedly glorify cartel culture. The action has renewed a debate over culture and free speech.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 墨西哥歌手加比托·巴列斯特罗斯因演唱被指美化贩毒集团的歌曲，演出被当局叫停后遭逮捕，再度引发关于文化与言论自由的争论。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Microsoft says services fully restored after day-long global outage</a></h3>
+  <h3 class="article-title"><a href="https://www.aljazeera.com/news/2026/11/15/zimbabwes-hiv-gains-face-a-test-among-young-people?traffic_source=rss" target="_blank" rel="noopener noreferrer">Zimbabwe’s HIV gains face a test among young people</a></h3>
   
-  <p class="article-meta">BBC World · 11/14 06:42</p>
-  <p class="article-excerpt">Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 微软表示，在Outlook、Teams与Copilot遭遇持续一天的全球宕机后，相关服务已全面恢复，底层问题的处理工作已完成。</p>
+  <p class="article-meta">Al Jazeera · 11/15 04:13</p>
+  <p class="article-excerpt">New prevention tools offer hope, but reaching young people remains a challenge.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 津巴布韦在艾滋病防治方面取得进展，新的预防手段带来希望，但如何覆盖年轻人群仍是一大挑战。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/opinions/2026/11/14/ukraine-is-running-out-of-options-and-russia-knows-it?traffic_source=rss" target="_blank" rel="noopener noreferrer">Ukraine is running out of options, and Russia knows it</a></h3>
+  <h3 class="article-title"><a href="https://www.theguardian.com/world/2026/nov/15/asia-diplomatic-summits-trump-xi-putin-apec-asean" target="_blank" rel="noopener noreferrer">World leaders head to Asia for back-to-back diplomatic summits</a></h3>
   
-  <p class="article-meta">Al Jazeera · 11/14 06:39</p>
-  <p class="article-excerpt">The Abu Dhabi talks reveal Moscow’s growing leverage over Ukraine and a shifting Western approach to peace.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 评论文章称，阿布扎比会谈显示莫斯科对乌克兰的筹码上升，西方对和平的态度也在转变，乌克兰的选择正日益减少。</p>
+  <p class="article-meta">The Guardian · 11/15 04:00</p>
+  <p class="article-excerpt">Tussle for influence as trade, tech and regional security to take centre stage in China, Philippines and Cambodia meetings The global political centre of gravity will be firmly in Asia this week as world leaders fly in for back-to-back high-level summits against the backdrop of the tussle for influe</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 本周全球政治重心转向亚洲，各国领导人将出席在中国、菲律宾和柬埔寨接连举行的高级别峰会，贸易、科技与地区安全成为焦点。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/sports/2026/11/14/mohamed-salah-egypt-goals-record-africa-cup-of-nations-afcon-2027-qualifiers?traffic_source=rss" target="_blank" rel="noopener noreferrer">Salah breaks Egypt scoring record, Tunisia lose to Libya in AFCON qualifier</a></h3>
+  <h3 class="article-title"><a href="https://www.theguardian.com/australia-news/2026/nov/15/anthony-albanese-apologises-for-hot-mic-gaffe-after-coalition-criticises-locker-room-talk" target="_blank" rel="noopener noreferrer">Anthony Albanese apologises for hot-mic gaffe after Coalition criticises ‘locker-room talk’</a></h3>
   
-  <p class="article-meta">Al Jazeera · 11/14 06:33</p>
-  <p class="article-excerpt">Salah scored twice to take his international tally to 70 ​and surpass former captain Hossam Hassan’s record.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 非洲杯2027年预选赛中，萨拉赫梅开二度，将国家队进球数提升至70球，超越前队长胡萨姆·哈桑的埃及队史纪录；突尼斯则不敌利比亚。</p>
+  <p class="article-meta">The Guardian · 11/15 03:49</p>
+  <p class="article-excerpt">Prime minister says he and Chris Bowen were having ‘light-hearted banter’ when they were caught discussing where they keep their phones Get our daily political email, free app or daily news podcast Anthony Albanese has apologised for a hot-mic gaffe at the UN climate talks in Turkey, saying he regre</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 澳大利亚总理阿尔巴尼斯在土耳其举行的联合国气候谈判期间因麦克风未关而失言，他与部长鲍恩关于手机放置位置的闲聊被播出，随后作出道歉。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/news/2026/11/14/philippine-court-orders-arrest-of-jailed-us-wanted-celebrity-preacher?traffic_source=rss" target="_blank" rel="noopener noreferrer">Philippine court orders arrest of jailed, US-wanted celebrity preacher</a></h3>
+  <h3 class="article-title"><a href="https://www.aljazeera.com/video/newsfeed/2026/11/15/monkey-attacks-woman-inside-residential-complex-in-india?traffic_source=rss" target="_blank" rel="noopener noreferrer">Monkey attacks woman inside residential complex in India</a></h3>
   
-  <p class="article-meta">Al Jazeera · 11/14 06:24</p>
-  <p class="article-excerpt">Palace denies timing of warrant is linked to Trump’s visit to Manila next week.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 菲律宾法院下令逮捕一名已被监禁、同时被美国通缉的知名牧师。总统府否认逮捕令时机与特朗普下周访问马尼拉有关。</p>
+  <p class="article-meta">Al Jazeera · 11/15 03:39</p>
+  <p class="article-excerpt">A woman was attacked and repeatedly bitten by a monkey at a residential apartment complex in India’s Gujarat state.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 印度古吉拉特邦一处住宅小区内，一名女子遭猴子袭击并被反复咬伤，相关画面在网络上流传。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia" target="_blank" rel="noopener noreferrer">Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia</a></h3>
+  <h3 class="article-title"><a href="https://www.aljazeera.com/video/newsfeed/2026/11/15/aje-onl-nf_italian-artist-rips-madonna-painting-to-reveal-gaza-141126?traffic_source=rss" target="_blank" rel="noopener noreferrer">Italian artist reimagines Madonna paintings to expose Gaza’s pain</a></h3>
   
-  <p class="article-meta">The Guardian · 11/14 06:19</p>
-  <p class="article-excerpt">Experts say disruption exposes ‘Australia’s reliance on foreign technology’ as software giant says services being restored Get our breaking news email, free app or daily news podcast The Microsoft outage could be a disaster for the Australian economy that forces some small businesses to close, with </p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 微软就全球宕机表示「深表歉意」，称服务正逐步恢复。专家指出，此次中断或给澳大利亚经济造成数十亿澳元损失，并暴露该国对外国技术的依赖。</p>
+  <p class="article-meta">Al Jazeera · 11/15 03:30</p>
+  <p class="article-excerpt">Italian artist Eduardo Castaldo has unveiled an artwork titled ‘Holy Mothers of Gaza’ inside Naples’ Pappacoda Chapel.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 意大利艺术家爱德华多·卡斯塔尔多在那不勒斯帕帕科达礼拜堂展出作品《加沙的圣洁母亲》，以重绘圣母像的方式呈现加沙民众的苦难。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/news/2026/11/14/siege-fuels-disease-fears-in-yemens-besieged-taiz?traffic_source=rss" target="_blank" rel="noopener noreferrer">Siege fuels disease fears in Yemen’s Taiz</a></h3>
+  <h3 class="article-title"><a href="https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Judge temporarily blocks Trump from closing Washington DC golf course for renovation</a></h3>
   
-  <p class="article-meta">Al Jazeera · 11/14 06:17</p>
-  <p class="article-excerpt">Health officials warn that falling numbers of recorded infections may conceal a worsening disease crisis in Taiz.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 也门塔伊兹遭围困，卫生官员警告称，记录在案的感染人数下降可能掩盖了当地正在恶化的疾病危机。</p>
+  <p class="article-meta">BBC World · 11/15 03:21</p>
+  <p class="article-excerpt">It is the latest development in a months-long challenge to the president&#39;s plans for East Potomac Golf Links.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 一名法官暂时阻止特朗普关闭华盛顿特区东波托马克高尔夫球场以进行改造的计划，这是针对总统相关计划持续数月法律挑战的最新进展。</p>
 </article>
   </div>
     </div>
@@ -1702,88 +1716,88 @@
     <div class="source-contents">
       <div class="source-content active" data-source-content="_merged" data-sub="news" data-cat="finance">
     <article class="article">
-  <h3 class="article-title"><a href="https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Microsoft says services fully restored after day-long global outage</a></h3>
+  <h3 class="article-title"><a href="https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless" target="_blank" rel="noopener noreferrer">Crypto’s Slow-Motion Selloff Leaves Traders Weary and Hopeless</a></h3>
   
-  <p class="article-meta">BBC Business · 11/14 06:42</p>
-  <p class="article-excerpt">Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 微软表示，在Outlook、Teams和Copilot遭遇持续一天的全球性服务中断后，相关根本问题的修复工作已完成，服务全面恢复。</p>
+  <p class="article-meta">Bloomberg Markets · 11/15 05:10</p>
+  <p class="article-excerpt">Bitcoin’s latest selloff is testing the resolve of some of the cryptocurrency market’s most committed investors, as a succession of setbacks pushes prices toward their lowest levels of the year and major sources of demand weaken.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 比特币最新一轮抛售推动价格逼近年内最低水平，多项利空接连出现，主要需求来源亦在减弱，正考验加密市场最坚定投资者的信心，交易者情绪疲惫。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.bloomberg.com/news/articles/2026-11-14/china-s-market-regulator-warns-of-global-asset-repricing-risks" target="_blank" rel="noopener noreferrer">China’s Market Regulator Warns of Global Asset Repricing Risks</a></h3>
+  <h3 class="article-title"><a href="https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3" target="_blank" rel="noopener noreferrer">What will Nvidia’s post-Huang era look like?</a></h3>
   
-  <p class="article-meta">Bloomberg Markets · 11/14 05:20</p>
-  <p class="article-excerpt">Global capital markets are undergoing a new round of asset repricing and rebalancing in the face of geopolitical tensions and policy uncertainty, according to Wu Qing, chairman of the China Securities Regulatory Commission.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 中国证监会主席吴清表示，在地缘政治紧张与政策不确定性背景下，全球资本市场正经历新一轮资产重新定价与再平衡，并提示相关风险。</p>
+  <p class="article-meta">Financial Times · 11/15 05:00</p>
+  <p class="article-excerpt">The chip company has only itself to blame for a long list of adversaries</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 报道探讨英伟达在黄仁勋之后的时代将如何发展，指出这家芯片公司树敌众多，其中不少对手的出现应归因于自身。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.ft.com/content/3ba2bcd1-b80c-48a2-91c7-35f25366f8aa?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">Italy rebuffs German bid to enter joint fighter jet project</a></h3>
+  <h3 class="article-title"><a href="https://www.ft.com/content/016ce22d-1e09-4f1d-a7e6-9acf183e757f?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">EU banking watchdog veers away from single deposit insurance scheme</a></h3>
   
-  <p class="article-meta">Financial Times · 11/14 05:00</p>
-  <p class="article-excerpt">Rome rejects push to explore inviting Berlin to enter UK-Japan-Italy next-generation aircraft programme</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 意大利拒绝德国加入英日意联合下一代战机项目的提议，罗马方面否决了邀请柏林参与探讨的推动，该项目由英国、日本和意大利共同推进。</p>
+  <p class="article-meta">Financial Times · 11/15 05:00</p>
+  <p class="article-excerpt">Chair of European Banking Authority working on alternative ways to free up more cross-border lending</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 欧洲银行管理局主席正研究替代方案，不再推进单一存款保险计划，转而寻求其他方式释放更多跨境贷款。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.ft.com/content/7c60b026-23ff-4b50-8a2b-7e9614ef7970" target="_blank" rel="noopener noreferrer">Hedge fund woes expose the dangers of hot money once again</a></h3>
+  <h3 class="article-title"><a href="https://www.ft.com/content/8e13baf8-fce7-4ebd-ac05-5692181f6d7e?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">The long and winding road to Dubai’s supermarket shelves</a></h3>
   
-  <p class="article-meta">Financial Times · 11/14 05:00</p>
-  <p class="article-excerpt">Recent stumbles have come about as a result of the pursuit of heady growth without the risk management capability and structures to deal with it</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 文章指出，对冲基金近期受挫源于追求高速增长却缺乏相应风险管理能力与架构，再次暴露热钱快进快出的风险。</p>
+  <p class="article-meta">Financial Times · 11/15 05:00</p>
+  <p class="article-excerpt">The United Arab Emirates’ shipping woes stemming from Iran war stoke dreams of farming in the desert</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 伊朗战争导致阿联酋航运受阻，迪拜超市货架供应面临压力，这也促使当地萌生在沙漠中发展农业的设想。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.ft.com/content/1ce0667f-1ff9-4d82-bf85-5d112f77310a?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">A Vinted ban would sell young entrepreneurs short</a></h3>
+  <h3 class="article-title"><a href="https://www.ft.com/content/a240f6b7-724c-4ad5-a4b1-2e04897e2fe8?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">Brookfield and KKR vie over $700mn deal for Gulf retailer Eyewa</a></h3>
   
-  <p class="article-meta">Financial Times · 11/14 05:00</p>
-  <p class="article-excerpt">Selling online is a great opportunity for teens to learn, earn and spend their money</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 评论文章认为，禁止Vinted等二手交易平台将损害青少年创业者利益，在线销售为青少年提供了学习、赚钱与理财的实践机会。</p>
+  <p class="article-meta">Financial Times · 11/15 05:00</p>
+  <p class="article-excerpt">Private capital firms in advanced talks to acquire majority stake in eyewear chain after Middle East deal drought</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 博枫与KKR正竞购海湾眼镜连锁品牌Eyewa，交易规模约7亿美元，拟收购多数股权；在中东私募交易长期低迷后，双方谈判已进入后期阶段。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.ft.com/content/e141a5ea-5aa4-491b-88a4-369cfc67693a" target="_blank" rel="noopener noreferrer">The Nvidia board’s artificial independence</a></h3>
+  <h3 class="article-title"><a href="https://www.ft.com/content/ee5b23b3-89b3-41f7-9158-56c1586759c2?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">Samsung conquered AI chips. Now it wants to build data centres</a></h3>
   
-  <p class="article-meta">Financial Times · 11/14 05:00</p>
-  <p class="article-excerpt">Bored of governance</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 评论文章质疑英伟达董事会的独立性名不副实，认为其公司治理结构存在形式化问题。</p>
+  <p class="article-meta">Financial Times · 11/15 05:00</p>
+  <p class="article-excerpt">South Korean conglomerate hopes to replicate success with semiconductors across its sprawling portfolio of businesses</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 韩国三星电子在人工智能芯片领域取得优势后，计划进军数据中心建设，希望把半导体业务的成功复制到集团旗下其他业务。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.ft.com/content/d309eebb-21b7-4b8e-bebd-83de96b0a184" target="_blank" rel="noopener noreferrer">Does your child have a side hustle?</a></h3>
+  <h3 class="article-title"><a href="https://www.ft.com/content/6b928d2e-cfe9-49a1-8da6-18d7113d636f?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">HSBC’s bet on bots could reshape the wealth wars</a></h3>
   
-  <p class="article-meta">Financial Times · 11/14 05:00</p>
-  <p class="article-excerpt">Enterprising young people are coming up with smart moneymaking ideas. FT Money wants to hear about them</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 英国《金融时报》旗下FT Money就青少年副业话题征集读者案例，指出不少年轻人正想出聪明的赚钱点子，希望了解相关经历。</p>
+  <p class="article-meta">Financial Times · 11/15 05:00</p>
+  <p class="article-excerpt">The UK bank ventures into a high-stakes experiment</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 汇丰押注机器人技术，开展一项高风险试验，报道称这可能重塑财富管理行业的竞争格局。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.ft.com/content/1505df5d-14e0-4095-8a88-fd23a165a821?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">China’s beaten-down tech stocks could offer AI with a little less drama</a></h3>
+  <h3 class="article-title"><a href="https://www.ft.com/content/77630912-9e8c-42ab-a7d5-937f3704cc74?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">European energy groups hire security experts after wave of sabotage</a></h3>
   
-  <p class="article-meta">Financial Times · 11/14 05:00</p>
-  <p class="article-excerpt">Opportunities in China lie as much in the picks and shovels of the AI supply chain</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 文章认为，中国受挫的科技股为投资者提供了波动相对较小的AI投资机会，机会主要存在于AI供应链的基础环节，例如芯片、设备等。</p>
+  <p class="article-meta">Financial Times · 11/15 05:00</p>
+  <p class="article-excerpt">Rise of so-called hybrid warfare brings greater focus to grid and refinery protection</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 在遭遇一系列破坏事件后，欧洲能源集团开始聘请安全专家，加大对电网和炼油厂的保护力度，以应对所谓混合战争风险上升。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.ft.com/content/546ec5eb-fbc2-4600-9794-12b1749c1a04" target="_blank" rel="noopener noreferrer">Nvidia’s cult of personality was bound to end badly</a></h3>
+  <h3 class="article-title"><a href="https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">Data centre construction stocks lose $4.2tn as boom in AI trade unravels</a></h3>
   
-  <p class="article-meta">Financial Times · 11/14 05:00</p>
-  <p class="article-excerpt">It is worth paying attention to the warning signs of corporate hubris — they often mean something bad is about to happen</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 评论文章认为，英伟达围绕创始人的个人崇拜文化注定结局不佳，企业傲慢的警示信号往往预示不利后果，值得投资者关注。</p>
+  <p class="article-meta">Financial Times · 11/15 05:00</p>
+  <p class="article-excerpt">Shares in AI ‘picks and shovels’ companies hit hard by tech sell-off</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 随着人工智能交易热潮瓦解，数据中心建设相关股票市值累计蒸发4.2万亿美元，为AI提供「铲子」的公司遭到科技股抛售重创。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.ft.com/content/85cddf9b-fd9d-4b4a-9f9f-e12961a8af98?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">UK housing wealth owned by over-65s tops £2.25tn</a></h3>
+  <h3 class="article-title"><a href="https://www.ft.com/content/921b3589-6f88-44a6-b162-a13f5cc7e5e9?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">‘Red caviar’ slips off Japan’s sushi menus as roe prices soar</a></h3>
   
-  <p class="article-meta">Financial Times · 11/14 05:00</p>
-  <p class="article-excerpt">Research shows how ‘boomer’ property owners have benefited from an exceptional stretch of house price growth — underlining the UK’s generational divide</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 研究显示，英国65岁以上人群持有的房产财富已超过2.25万亿英镑，婴儿潮一代受益于房价长期大幅上涨，凸显英国代际财富分化。</p>
+  <p class="article-meta">Financial Times · 11/15 02:00</p>
+  <p class="article-excerpt">Collapse in wild salmon harvests put prized delicacy at risk as warming seas disrupt supply</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 野生鲑鱼捕捞量骤降，海水升温扰乱供应，鱼籽价格大幅上涨，红色鱼子酱正从日本寿司菜单上消失。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.ft.com/content/ca6d97ba-baa0-46aa-b91e-ab12fa10b123" target="_blank" rel="noopener noreferrer">New pooled pension scheme does nothing to solve finance’s ‘nastiest’ problem</a></h3>
+  <h3 class="article-title"><a href="https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Beauty advent calendars can cost hundreds - but are they value for money?</a></h3>
   
-  <p class="article-meta">Financial Times · 11/14 05:00</p>
-  <p class="article-excerpt">The government has promised to ‘make pensions, pensions again’ — intergenerational risk sharing is not the answer</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 评论文章指出，英国政府新推出的集合养老金计划并未解决金融领域最棘手的问题，代际风险分担并非可行答案。</p>
+  <p class="article-meta">BBC Business · 11/15 00:01</p>
+  <p class="article-excerpt">Beauty calendars have become a Christmas staple and have become particularly popular with female shoppers.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 美容倒数日历已成圣诞节常规商品，在女性消费者中尤其受欢迎，部分售价高达数百英镑，但其性价比受到质疑。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.ft.com/content/2645c02e-b3e1-4a0e-80d1-e848ecc1acf0?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">Will we soon cure cancer?</a></h3>
+  <h3 class="article-title"><a href="https://www.ft.com/content/f66f9811-59a2-4e52-a944-c7ed81dabc50?syn-25a6b1a6=1" target="_blank" rel="noopener noreferrer">Passengers face widespread disruption after US air traffic control outage</a></h3>
   
-  <p class="article-meta">Financial Times · 11/14 05:00</p>
-  <p class="article-excerpt">A recent revolution in drug-based prevention and treatment has brought scientists tantalisingly close to defeating these most feared diseases — but stubborn challenges remain</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 文章指出，药物预防与治疗领域近期的革命性进展使科学家有望攻克癌症这类最令人恐惧的疾病，但仍有顽固挑战待解决。</p>
+  <p class="article-meta">Financial Times · 11/14 23:32</p>
+  <p class="article-excerpt">Thousands of flights delayed or cancelled as political blame game mounts</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 美国空中交通管制系统出现故障，导致数千架次航班延误或被取消，旅客出行大范围受阻，同时政治层面的相互指责升温。</p>
 </article>
   </div>
     </div>
@@ -1795,31 +1809,45 @@
     <div class="source-contents">
       <div class="source-content active" data-source-content="v2ex-hot" data-sub="cn-community" data-cat="tech">
     <article class="article">
+  <h3 class="article-title"><a href="https://www.v2ex.com/t/1257180" target="_blank" rel="noopener noreferrer">南大镜像站的证书过期了</a></h3>
+  
+  <p class="article-meta">11/15 04:56</p>
+  <p class="article-excerpt">6 回复 · Linux 节点</p>
+  
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.v2ex.com/t/1257172" target="_blank" rel="noopener noreferrer">怎么你们被 claude 封又是申诉成功，又是苹果退款的？</a></h3>
+  
+  <p class="article-meta">11/15 03:53</p>
+  <p class="article-excerpt">6 回复 · 程序员 节点</p>
+  
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.v2ex.com/t/1257091" target="_blank" rel="noopener noreferrer">xxl-job 是放弃维护了吗？ PG 版本的兼容 PR 提了那么长时间都没人合并，还没有更好的组件选择？</a></h3>
+  
+  <p class="article-meta">11/14 12:21</p>
+  <p class="article-excerpt">9 回复 · 程序员 节点</p>
+  
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.v2ex.com/t/1257054" target="_blank" rel="noopener noreferrer">AI 时代，程序员正在慢慢转向产品经理</a></h3>
+  
+  <p class="article-meta">11/14 08:05</p>
+  <p class="article-excerpt">21 回复 · 程序员 节点</p>
+  
+</article>
+<article class="article">
   <h3 class="article-title"><a href="https://www.v2ex.com/t/1257021" target="_blank" rel="noopener noreferrer">有些程序员（产品经理）的脑回路秀逗了吧？ 就拿咪咕视频来说</a></h3>
   
   <p class="article-meta">11/14 04:59</p>
-  <p class="article-excerpt">11 回复 · 程序员 节点</p>
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.v2ex.com/t/1256975" target="_blank" rel="noopener noreferrer">‘AI 取代人类’的另一种解读</a></h3>
-  
-  <p class="article-meta">11/13 17:08</p>
-  <p class="article-excerpt">8 回复 · 程序员 节点</p>
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.v2ex.com/t/1256957" target="_blank" rel="noopener noreferrer">可能这就是自由开发者或者说 OPC 的困境，有活也轮不到你</a></h3>
-  
-  <p class="article-meta">11/13 15:00</p>
-  <p class="article-excerpt">8 回复 · 程序员 节点</p>
+  <p class="article-excerpt">23 回复 · 程序员 节点</p>
   
 </article>
 <article class="article">
   <h3 class="article-title"><a href="https://www.v2ex.com/t/1256914" target="_blank" rel="noopener noreferrer">如何买到靠谱停产 iPhone ？</a></h3>
   
   <p class="article-meta">11/13 10:16</p>
-  <p class="article-excerpt">9 回复 · Apple 节点</p>
+  <p class="article-excerpt">10 回复 · Apple 节点</p>
   
 </article>
 <article class="article">
@@ -1833,7 +1861,7 @@
   <h3 class="article-title"><a href="https://www.v2ex.com/t/1256789" target="_blank" rel="noopener noreferrer">Airpods pro3 到底咋了？减噪甚至不如 2 代</a></h3>
   
   <p class="article-meta">11/13 05:48</p>
-  <p class="article-excerpt">20 回复 · Apple 节点</p>
+  <p class="article-excerpt">21 回复 · Apple 节点</p>
   
 </article>
 <article class="article">
@@ -1848,20 +1876,6 @@
   
   <p class="article-meta">11/12 02:12</p>
   <p class="article-excerpt">28 回复 · Apple 节点</p>
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.v2ex.com/t/1256316" target="_blank" rel="noopener noreferrer">surge 6.0 已开始支持 vless</a></h3>
-  
-  <p class="article-meta">11/11 23:18</p>
-  <p class="article-excerpt">36 回复 · Apple 节点</p>
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.v2ex.com/t/1255261" target="_blank" rel="noopener noreferrer">网易 UU 远程 Linux 终于来啦</a></h3>
-  
-  <p class="article-meta">11/07 13:38</p>
-  <p class="article-excerpt">10 回复 · Linux 节点</p>
   
 </article>
   </div>
